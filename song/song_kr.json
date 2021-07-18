@@ -56,21 +56,21 @@
         "answer": ["선을그어주던가"]
     },
     {
-        "name": "비로소너에게도착했다 - 마크툽",
+        "name": "비로소 너에게 도착했다 - 마크툽",
         "code": "25VMrK1jbAg",
         "start": 0,
         "tags": ["발라드", "마크툽(MAKTUB)", "2021", "최신곡"],
         "answer": ["비로소너에게도착했다", "fullbloom"]
     },
     {
-        "name": "TooGoodForMe - 고갱",
+        "name": "Too Good For Me - 고갱",
         "code": "bT2GZ2rwBRg",
         "start": 0,
         "tags": ["발라드", "고갱(Gogang)", "2019", "감성"],
         "answer": ["toogoodforme"]
     },
     {
-        "name": "너의궤도 - dosii",
+        "name": "너의 궤도 - dosii",
         "code": "3JeNVo6wxaw",
         "start": 0,
         "tags": ["시티팝", "도시(dosii)", "2019", "감성"],
@@ -131,13 +131,6 @@
         "start": 0,
         "tags": ["힙합", "태비(Taeb2)", "2019", "싱잉랩"],
         "answer": ["파란색", "blue"]
-    },
-    {
-        "name": "신호등 - 이무진",
-        "code": "z0KqM3oAnus",
-        "start": 0,
-        "tags": ["발라드", "이무진", "2021", "TOP100"],
-        "answer": ["신호등"]
     },
     {
         "name": "그땐 그땐 그땐 - 슈프림팀",
