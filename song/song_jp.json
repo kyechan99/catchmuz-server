@@ -243,5 +243,54 @@
         "start": 0,
         "tags": ["Vocaloid", "初音ミク", "2019"],
         "answer": ["くらべられっ子", "비교당하는아이"]
+    },
+    {
+      "name": "シグナル - WANIMA",
+      "code": "DSZUUnaeWFQ",
+      "start": 29,
+      "tags": [ "WANIMA", "J-pop", "2018" ],
+      "answer": [ "シグナル", "시그널", "signal" ]
+    },
+    {
+      "name": "ともに - WANIMA",
+      "code": "qag4ewos4TE",
+      "start": 1,
+      "tags": [ "WANIMA", "J-pop", "2016" ],
+      "answer": [ "ともに", "토모니", "tomoni" ]
+    },
+    {
+      "name": "サクラミツツキ - SPYAIR",
+      "code": "CpGPYFU4n0Y",
+      "start": 0,
+      "tags": [ "J-pop", "SPYAIR", "2013", "애니ost", "록" ],
+      "answer": [ "サクラミツツキ", "떤맙", "sakuramitsutsuki" ]
+    },
+    {
+      "name": "メギツネ - BABYMETAL",
+      "code": "cK3NMZAUKGw",
+      "start": 0,
+      "tags": [ "J-pop", "BABYMETAL", "2013", "헤비메탈" ],
+      "answer": [ "メギツネ", "메기츠네", "암여우", "megitsune" ]
+    },
+    {
+      "name": "ギミチョコ!! - BABYMETAL",
+      "code": "WIKqgE4BwAY",
+      "start": 6,
+      "tags": [ "J-pop", "BABYMETAL", "2014", "헤비메탈" ],
+      "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
+    },
+    {
+      "name": "ギミチョコ!! - BABYMETAL",
+      "code": "WIKqgE4BwAY",
+      "start": 6,
+      "tags": [ "J-pop", "BABYMETAL", "2014", "헤비메탈" ],
+      "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
+    },
+    {
+      "name": "Road of Resistance - BABYMETAL",
+      "code": "7ZWn7yCDa2s",
+      "start": 76,
+      "tags": [ "J-pop", "BABYMETAL", "2016", "헤비메탈" ],
+      "answer": [ "roadofresistance" ]
     }
 ]
