@@ -72,7 +72,7 @@ io.on('connection', (socket) => {
           socketId: data.user.socketId,
           nickname: data.user.nickname,
           profile: data.user.profile,
-          color: 0
+          color: data.user.color
         }
       ],
       songList: [],
@@ -90,21 +90,30 @@ io.on('connection', (socket) => {
 
     // 존재하는 방인지
     if (roomData[data.roomCode] != undefined) {
+      
       // 해당 방에 내가 이미 들어와 있는지
       if (roomData[data.roomCode].userList.length > 0) {
+        
+        // 방장인지 아닌지 확인
         if (roomData[data.roomCode].userList.filter(e => e.socketId === data.user.socketId).length > 0) {
-          // 방장임
-          socket.emit('your manager');
+          socket.emit('your manager', roomData[data.roomCode].songTags);
+        
         } else {
-          /// 방장이 아님
-
-          /// TODO : 인원수 체크
+          
+          // 인원수 체크
+          if (roomData[data.roomCode].userList.length + 1 > roomData[data.roomCode].maxUserNum ||
+              roomData[data.roomCode].isPlaying) {
+            console.log('인원수 넘침 ' , roomData[data.roomCode].isPlaying);
+            // 내가 들어가면 인원수가 넘치거나 게임중인 방에 강제로 접속했음
+            socket.emit('forced exit');
+            return;
+          }
 
           // 기존에 있던 유저들에게 내 데이터를 보내줌
           io.to(ROOM_CODE + data.roomCode).emit('someone join', data.user);
 
           // 나에게 전체 기존 유저 데이터들을 보내줌
-          socket.emit('join room', roomData[data.roomCode].userList);
+          socket.emit('join room', roomData[data.roomCode].userList, roomData[data.roomCode].songTags);
 
           roomData[data.roomCode].userList.push(data.user);
 
@@ -113,6 +122,8 @@ io.on('connection', (socket) => {
       }
     } else {
       // error : 없는 방
+      console.log('존재하지 않는 방');
+      socket.emit('forced exit');
     }
   });
 
@@ -179,6 +190,7 @@ io.on('connection', (socket) => {
   socket.on('request next', data => {
     console.log('REQUEST NEXT SONG');
 
+    roomData[data.roomCode].songList.shift();
     if (roomData[data.roomCode] && roomData[data.roomCode].isPlaying) {
       nextSong(data.roomCode);
     }
@@ -194,17 +206,29 @@ io.on('connection', (socket) => {
     }
   }
 
+
+  function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i -= 1) {
+      j = Math.floor(Math.random() * i);
+      x = a[i - 1];
+      a[i - 1] = a[j];
+      a[j] = x;
+    }
+  }
+
   //================================
   // Game - Game Start
   socket.on('game start', (data) => {
-    console.log('GAME START !!!!!!!!!');
     roomData[data.roomCode].isPlaying = true;
-    console.log(roomData[data.roomCode]);
+    
     roomData[data.roomCode].songList = songData.filter((song, idx) => {
-      return (song.tags.includes('TOP100'));
+      return (song.tags.includes(roomData[data.roomCode].songTags[0]));
     });
+    shuffle(roomData[data.roomCode].songList);
 
     io.to(ROOM_CODE + data.roomCode).emit('game start', data);
+    
     nextSong(data.roomCode);
   });
 
