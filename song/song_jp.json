@@ -3,7 +3,7 @@
         "name": "グッバイ宣言 - v flower",
         "code": "5Ct_tDR_Xu4",
         "start": 0,
-        "tags": ["보컬로이드", "Vocaloid", "2020"],
+        "tags": ["Vocaloid", "2020"],
         "answer": ["グッバイ宣言", "굿바이선언", "goodbyedeclaration"]
     },
     {
@@ -24,28 +24,28 @@
         "name": "群青 - YOASOBI",
         "code": "Y4nEEZwckuU",
         "start": 2,
-        "tags": ["J-pop", "2020", "YOASOBI", "요아소비"],
+        "tags": ["J-pop", "2020", "YOASOBI"],
         "answer": ["群青", "군청"]
     },
     {
         "name": "あの夢をなぞって - YOASOBI",
         "code": "sAuEeM_6zpk",
         "start": 0,
-        "tags": ["J-pop", "YOASOBI", "요아소비", "2020"],
+        "tags": ["J-pop", "YOASOBI", "2020"],
         "answer": ["あの夢をなぞって", "저꿈을덧그리며", "studyme"]
     },
     {
         "name": "たぶん - YOASOBI",
         "code": "Atvsg_zogxo",
         "start": 0,
-        "tags": ["J-pop", "YOASOBI", "요아소비", "2020"],
+        "tags": ["J-pop", "YOASOBI", "2020"],
         "answer": ["たぶん", "아마도"]
     },
     {
         "name": "裸の心 - あいみょん",
         "code": "yOAwvRmVIyo",
         "start": 5,
-        "tags": ["J-pop", "あいみょん", "아이묭", "2020"],
+        "tags": ["J-pop", "あいみょん", "2020"],
         "answer": ["裸の心", "nakedheart"]
     },
     {
@@ -66,14 +66,14 @@
         "name": "お勉強しといてよ - ずっと真夜中でいいのに",
         "code": "Atvsg_zogxo",
         "start": 0,
-        "tags": ["J-pop", "ずっと真夜中でいいのに", "계속 한밤중이면 좋을텐데", "2020"],
+        "tags": ["J-pop", "ずっと真夜中でいいのに", "2020"],
         "answer": ["お勉強しといてよ", "studyme", "공부해줘"]
     },
     {
         "name": "夜に駆ける - YOASOBI",
         "code": "x8VYWazR5mE",
         "start": 0,
-        "tags": ["J-pop", "YOASOBI", "요아소비", "2019", "Tiktok"],
+        "tags": ["J-pop", "YOASOBI", "2019", "Tiktok"],
         "answer": ["夜に駆ける", "밤을달리다"]
     },
     {
@@ -94,7 +94,7 @@
         "name": "化身 - ポルカドットスティングレイ",
         "code": "U609b7lOAII",
         "start": 0,
-        "tags": ["J-pop", "Polkadot Stingray", "폴카닷 스팅레이", "2020"],
+        "tags": ["J-pop", "폴카닷 스팅레이", "2020"],
         "answer": ["化身", "화신", "keshin"]
     },
     {
