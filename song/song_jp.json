@@ -1,51 +1,296 @@
 [
-  {
-    "name": "�����ʫ� - WANIMA",
-    "code": "DSZUUnaeWFQ",
-    "start": 29,
-    "tags": [ "WANIMA", "J-pop", "2018" ],
-    "answer": [ "�����ʫ�", "�ñ׳�", "signal" ]
-  },
-  {
-    "name": "�Ȫ�� - WANIMA",
-    "code": "qag4ewos4TE",
-    "start": 1,
-    "tags": [ "WANIMA", "J-pop", "2016" ],
-    "answer": [ "�Ȫ��", "����", "tomoni" ]
-  },
-  {
-    "name": "������߫īī� - SPYAIR",
-    "code": "CpGPYFU4n0Y",
-    "start": 0,
-    "tags": [ "J-pop", "SPYAIR", "2013", "�ִ�ost", "��" ],
-    "answer": [ "������߫īī�", "���ɸ���", "sakuramitsutsuki" ]
-  },
-  {
-    "name": "�᫮�ī� - BABYMETAL",
-    "code": "cK3NMZAUKGw",
-    "start": 0,
-    "tags": [ "J-pop", "BABYMETAL", "2013", "����Ż" ],
-    "answer": [ "�᫮�ī�", "�ޱ�����", "�Ͽ���", "megitsune" ]
-  },
-  {
-    "name": "���߫��竳!! - BABYMETAL",
-    "code": "WIKqgE4BwAY",
-    "start": 6,
-    "tags": [ "J-pop", "BABYMETAL", "2014", "����Ż" ],
-    "answer": [ "���߫��竳!!", "gimmechocolate!!", "�������" ]
-  },
-  {
-    "name": "���߫��竳!! - BABYMETAL",
-    "code": "WIKqgE4BwAY",
-    "start": 6,
-    "tags": [ "J-pop", "BABYMETAL", "2014", "����Ż" ],
-    "answer": [ "���߫��竳!!", "gimmechocolate!!", "�������" ]
-  },
-  {
-    "name": "Road of Resistance - BABYMETAL",
-    "code": "7ZWn7yCDa2s",
-    "start": 76,
-    "tags": [ "J-pop", "BABYMETAL", "2016", "����Ż" ],
-    "answer": [ "roadofresistance" ]
-  }
+    {
+        "name": "グッバイ宣言 - v flower",
+        "code": "5Ct_tDR_Xu4",
+        "start": 0,
+        "tags": ["Vocaloid", "2020"],
+        "answer": ["グッバイ宣言", "굿바이선언", "goodbyedeclaration"]
+    },
+    {
+        "name": "花のうた - 하나땅",
+        "code": "aNMQ7VlUtuM",
+        "start": 0,
+        "tags": ["J-pop", "Vocaloid", "2013", "하나땅"],
+        "answer": ["花のうた", "꽃의노래", "flowersong"]
+    },
+    {
+        "name": "silent - SEKAI NO OWARI",
+        "code": "03Xa38nfhGw",
+        "start": 7,
+        "tags": ["J-pop", "SEKAI NO OWARI", "2020"],
+        "answer": ["silent"]
+    },
+    {
+        "name": "群青 - YOASOBI",
+        "code": "Y4nEEZwckuU",
+        "start": 2,
+        "tags": ["J-pop", "2020", "YOASOBI"],
+        "answer": ["群青", "군청"]
+    },
+    {
+        "name": "あの夢をなぞって - YOASOBI",
+        "code": "sAuEeM_6zpk",
+        "start": 0,
+        "tags": ["J-pop", "YOASOBI", "2020"],
+        "answer": ["あの夢をなぞって", "저꿈을덧그리며", "studyme"]
+    },
+    {
+        "name": "たぶん - YOASOBI",
+        "code": "Atvsg_zogxo",
+        "start": 0,
+        "tags": ["J-pop", "YOASOBI", "2020"],
+        "answer": ["たぶん", "아마도"]
+    },
+    {
+        "name": "裸の心 - あいみょん",
+        "code": "yOAwvRmVIyo",
+        "start": 5,
+        "tags": ["J-pop", "あいみょん", "2020"],
+        "answer": ["裸の心", "nakedheart"]
+    },
+    {
+        "name": "Pretender - Official髭男dism",
+        "code": "TQ8WlA2GXbk",
+        "start": 0,
+        "tags": ["J-pop", "Official髭男dism", "2019"],
+        "answer": ["pretender"]
+    },
+    {
+        "name": "Universe - Official髭男dism",
+        "code": "6lnS-8FVod4",
+        "start": 30,
+        "tags": ["J-pop", "Official髭男dism", "2021"],
+        "answer": ["universe"]
+    },
+    {
+        "name": "お勉強しといてよ - ずっと真夜中でいいのに",
+        "code": "Atvsg_zogxo",
+        "start": 0,
+        "tags": ["J-pop", "ずっと真夜中でいいのに", "2020"],
+        "answer": ["お勉強しといてよ", "studyme", "공부해줘"]
+    },
+    {
+        "name": "夜に駆ける - YOASOBI",
+        "code": "x8VYWazR5mE",
+        "start": 0,
+        "tags": ["J-pop", "YOASOBI", "2019", "Tiktok"],
+        "answer": ["夜に駆ける", "밤을달리다"]
+    },
+    {
+        "name": "恋音と雨空 - AAA",
+        "code": "A_1t2Dkd2Io",
+        "start": 0,
+        "tags": ["J-pop", "AAA", "2013"],
+        "answer": ["恋音と雨空", "사랑의소리와비오는하늘 "]
+    },
+    {
+        "name": "heartbreaker - 植田真梨恵",
+        "code": "c1G7X0NfnCw",
+        "start": 0,
+        "tags": ["J-pop", "植田真梨恵", "2020"],
+        "answer": ["heartbreaker"]
+    },
+    {
+        "name": "化身 - ポルカドットスティングレイ",
+        "code": "U609b7lOAII",
+        "start": 0,
+        "tags": ["J-pop", "폴카닷 스팅레이", "2020"],
+        "answer": ["化身", "화신", "keshin"]
+    },
+    {
+        "name": "思想犯 - ヨルシカ",
+        "code": "ENcnYh79dUY",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ", "2020"],
+        "answer": ["思想犯", "사상범", "thoughtcrime"]
+    },
+    {
+        "name": "風を食む - ヨルシカ",
+        "code": "GVrRXhS0mLs",
+        "start": 8,
+        "tags": ["J-pop", "ヨルシカ", "2020"],
+        "answer": ["風を食む", "바람을먹다", "eatthewind"]
+    },
+    {
+        "name": "思想犯 - ヨルシカ",
+        "code": "ENcnYh79dUY",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ", "2020"],
+        "answer": ["思想犯", "사상범", "thoughtcrime"]
+    },
+    {
+        "name": "恋のうた - Yunomi",
+        "code": "LaOYJpJN9nU",
+        "start": 0,
+        "tags": ["애니op", "Yunomi", "2020"],
+        "answer": ["恋のうた", "사랑의노래"]
+    },
+    {
+        "name": "天使にふれたよ! - けいおん!",
+        "code": "l8O9rfxBLRg",
+        "start": 0,
+        "tags": ["2010", "애니ost"],
+        "answer": ["天使にふれたよ", "천사를만났어", "thoughtcrime"]
+    },
+    {
+        "name": "夜永唄 - 神はサイコロを振らない",
+        "code": "Nij9BiHzP7E",
+        "start": 10,
+        "tags": ["J-pop", "애니ost", "2020"],
+        "answer": ["夜永唄", "야빙가", "yonagauta"]
+    },
+    {
+        "name": "敗北の少年 - PENGUIN RESEARCH",
+        "code": "0MSycY_KG3I",
+        "start": 0,
+        "tags": ["J-pop", "Vocaloid", "PENGUIN RESEARCH", "2013"],
+        "answer": ["敗北の少年", "패배의소년", "boyofdefeat"]
+    },
+    {
+        "name": "1% - ウォルピスカーター",
+        "code": "vvGq429iHjk",
+        "start": 0,
+        "tags": ["J-pop", "월피스카터" , "ウォルピスカーター", "2019"],
+        "answer": ["1%"]
+    },
+    {
+        "name": "みちしるべ - 茅原実里",
+        "code": "lOMfQqqxpII",
+        "start": 0,
+        "tags": ["J-pop", "茅原実里", "2018"],
+        "answer": ["みちしるべ", "이정표"]
+    },
+    {
+        "name": "さくらんぼ - 大塚 愛",
+        "code": "pE5dfZr4KD4",
+        "start": 0,
+        "tags": ["J-pop", "大塚 愛", "2004", "Tiktok"],
+        "answer": ["さくらんぼ", "사쿠란보"]
+    },
+    {
+        "name": "愛にできることはまだあるかい - RADWIMPS",
+        "code": "lCHExX3NypM",
+        "start": 10,
+        "tags": ["애니ost", "RADWIMPS", "2019"],
+        "answer": ["愛にできることはまだあるかい", "사랑이할수있는일이아직있을까"]
+    },
+    {
+        "name": "紅蓮華 - LiSA",
+        "code": "AU4kC_tYXGE",
+        "start": 0,
+        "tags": ["애니op", "LiSA", "2019"],
+        "answer": ["紅蓮華", "홍련화"]
+    },
+    {
+        "name": "幸せ - back number",
+        "code": "zZQvp1A7JrE",
+        "start": 0,
+        "tags": ["애니op", "back number", "2011"],
+        "answer": ["幸せ", "행복"]
+    },
+    {
+        "name": "ただ君に晴れ - ヨルシカ",
+        "code": "VKIqrvVOpo",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ", "2018"],
+        "answer": ["ただ君に晴れ", "그저네게맑아라"]
+    },
+    {
+        "name": "嘘月 - ヨルシカ",
+        "code": "VovGHh2sCnM",
+        "start": 0,
+        "tags": ["애니ed", "ヨルシカ", "2021"],
+        "answer": ["嘘月", "거짓말쟁이", "Liar"]
+    },
+    {
+        "name": "猫 - Dish//",
+        "code": "gsT6eKsnT0M",
+        "start": 55,
+        "tags": ["J-pop", "Dish//", "2019"],
+        "answer": ["猫", "고양이"]
+    },
+    {
+        "name": "さよならメモリーズ - supercell",
+        "code": "QiVkKYw8Iao",
+        "start": 0,
+        "tags": ["J-pop", "supercell", "2019"],
+        "answer": ["さよならメモリーズ", "사요나라메모리즈"]
+    },
+    {
+        "name": "あの娘シークレット - Eve",
+        "code": "sgdPlDG1-8k",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク", "Eve", "2017"],
+        "answer": ["あの娘シークレット", "그아이시크릿", "thatgirlsecret"]
+    },
+    {
+        "name": "Humanoid - ずっと真夜中でいいのに",
+        "code": "GAB26GgJ8V8",
+        "start": 0,
+        "tags": ["j-pop", "ずっと真夜中でいいのに", "Eve", "2018"],
+        "answer": ["휴머노이드", "Humanoid"]
+    },
+    {
+        "name": "くらべられっ子 - ツユ",
+        "code": "olWvy0PiLfA",
+        "start": 0,
+        "tags": ["J-pop", "ツユ", "Eve", "2017"],
+        "answer": ["あの娘シークレット", "그아이시크릿", "thatgirlsecret"]
+    },
+    {
+        "name": "くらべられっ子 - Eve",
+        "code": "olWvy0PiLfA",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク", "2019"],
+        "answer": ["くらべられっ子", "비교당하는아이"]
+    },
+    {
+      "name": "シグナル - WANIMA",
+      "code": "DSZUUnaeWFQ",
+      "start": 29,
+      "tags": [ "WANIMA", "J-pop", "2018" ],
+      "answer": [ "シグナル", "시그널", "signal" ]
+    },
+    {
+      "name": "ともに - WANIMA",
+      "code": "qag4ewos4TE",
+      "start": 1,
+      "tags": [ "WANIMA", "J-pop", "2016" ],
+      "answer": [ "ともに", "토모니", "tomoni" ]
+    },
+    {
+      "name": "サクラミツツキ - SPYAIR",
+      "code": "CpGPYFU4n0Y",
+      "start": 0,
+      "tags": [ "J-pop", "SPYAIR", "2013", "애니ost", "록" ],
+      "answer": [ "サクラミツツキ", "떤맙", "sakuramitsutsuki" ]
+    },
+    {
+      "name": "メギツネ - BABYMETAL",
+      "code": "cK3NMZAUKGw",
+      "start": 0,
+      "tags": [ "J-pop", "BABYMETAL", "2013", "헤비메탈" ],
+      "answer": [ "メギツネ", "메기츠네", "암여우", "megitsune" ]
+    },
+    {
+      "name": "ギミチョコ!! - BABYMETAL",
+      "code": "WIKqgE4BwAY",
+      "start": 6,
+      "tags": [ "J-pop", "BABYMETAL", "2014", "헤비메탈" ],
+      "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
+    },
+    {
+      "name": "ギミチョコ!! - BABYMETAL",
+      "code": "WIKqgE4BwAY",
+      "start": 6,
+      "tags": [ "J-pop", "BABYMETAL", "2014", "헤비메탈" ],
+      "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
+    },
+    {
+      "name": "Road of Resistance - BABYMETAL",
+      "code": "7ZWn7yCDa2s",
+      "start": 76,
+      "tags": [ "J-pop", "BABYMETAL", "2016", "헤비메탈" ],
+      "answer": [ "roadofresistance" ]
+    }
 ]
