@@ -1,18 +1,10 @@
 var express = require('express');
 var app = express();
 const port = process.env.PORT || 4000;
+var _ = require('lodash');
 
 const server = require('http').createServer(app);
-
-const ROOM_CODE = 'ROOM_';
-
 const songData = require('./song/song_kr.json');
-
-console.log(songData);
-
-console.log(songData.filter((song, idx) => {
-  return (song.tags.includes('TOP100'));
-}))
 
 const io = require("socket.io")(server, {
   cors: {
@@ -26,28 +18,24 @@ server.listen(port, () => {
 });
 
 
-let roomData = {
+const ROOM_CODE = 'ROOM_';
+const READY_STATE = 0;
+const PLAYING_STATE = 1;
+const WAITING_STATE = 2;
 
-  0: {
-    songTags: ['임시', '태그', '방'],
-    maxSongNum: 30,
-    maxUserNum: 10,
-    userList: [
-      {
-        socketId: '',
-        nickname: '',
-        profile: 1,
-        color: 0
-      }
-    ],
-    songList: [],
-    isPlaying: false
-  }
-
-};
-
+let roomData = {};
 let roomIdx = 0;
 
+
+function shuffle(a) {
+  var j, x, i;
+  for (i = a.length; i; i -= 1) {
+    j = Math.floor(Math.random() * i);
+    x = a[i - 1];
+    a[i - 1] = a[j];
+    a[j] = x;
+  }
+}
 
 io.on('connection', (socket) => {
   console.log("연결된 socketID : ", socket.id);
@@ -57,6 +45,14 @@ io.on('connection', (socket) => {
     socketId: socket.id
   });
 
+  function nextSong(roomCode) {
+    if (roomData[roomCode].songList.length > 0) {
+      io.to(ROOM_CODE + roomCode).emit('next song', roomData[roomCode].songList[0]);
+    } else {
+      roomData[roomCode].isPlaying = READY_STATE;
+      io.to(ROOM_CODE + roomCode).emit('game end');
+    }
+  }
 
   //================================
   // Room - Create
@@ -76,7 +72,7 @@ io.on('connection', (socket) => {
         }
       ],
       songList: [],
-      isPlaying: false
+      isPlaying: READY_STATE
     };
 
     socket.join(ROOM_CODE + roomIdx);
@@ -163,76 +159,58 @@ io.on('connection', (socket) => {
           delete obj[idx].userList;
           return obj;
       }, {}));
-
   });
 
   //================================
   // Room - Send Chat
   socket.on('send chat', data => {
-
     data.isAnswer = false;
-    if (roomData[data.roomCode].isPlaying) {
+    if (roomData[data.roomCode].isPlaying === PLAYING_STATE) {
       // Check is Answer
       if (roomData[data.roomCode].songList[0].answer.includes( data.msg.replace(/\s/g, '') )) {
         data.isAnswer = true; 
-        roomData[data.roomCode].songList.shift();
+        roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
       }
     }
 
     io.to(ROOM_CODE + data.roomCode).emit('receive chat', data);
-
-    // if (data.isAnswer) {
-    //   nextSong(data.roomCode);
-    // }
-
   });
 
+  //================================
+  // Room - Request Answer
+  socket.on('request answer', data => {
+    console.log('REQ ANSWER SONG');
+
+    roomData[data.roomCode].isPlaying = WAITING_STATE;
+    io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
+  });
+
+  //================================
+  // Room - Request Next Song
   socket.on('request next', data => {
     console.log('REQUEST NEXT SONG');
 
+    roomData[data.roomCode].isPlaying = PLAYING_STATE;
     roomData[data.roomCode].songList.shift();
     if (roomData[data.roomCode] && roomData[data.roomCode].isPlaying) {
       nextSong(data.roomCode);
     }
-  })
-
-  function nextSong(roomCode) {
-    if (roomData[roomCode].songList.length > 0) {
-      io.to(ROOM_CODE + roomCode).emit('next song', roomData[roomCode].songList[0]);
-    } else {
-      roomData[roomCode].isPlaying = false;
-      console.log('ERROR : No song found');
-      io.to(ROOM_CODE + roomCode).emit('game end');
-    }
-  }
-
-
-  function shuffle(a) {
-    var j, x, i;
-    for (i = a.length; i; i -= 1) {
-      j = Math.floor(Math.random() * i);
-      x = a[i - 1];
-      a[i - 1] = a[j];
-      a[j] = x;
-    }
-  }
+  });
 
   //================================
   // Game - Game Start
   socket.on('game start', (data) => {
-    roomData[data.roomCode].isPlaying = true;
+    roomData[data.roomCode].isPlaying = PLAYING_STATE;
     
-    roomData[data.roomCode].songList = songData.filter((song, idx) => {
+    roomData[data.roomCode].songList = _.cloneDeep(songData.filter((song, idx) => {
       return (song.tags.includes(roomData[data.roomCode].songTags[0]));
-    });
+    }));
     shuffle(roomData[data.roomCode].songList);
 
-    io.to(ROOM_CODE + data.roomCode).emit('game start', data);
-    
+    io.to(ROOM_CODE + data.roomCode).emit('game start', { songLength: roomData[data.roomCode].songList.length   });
+
     nextSong(data.roomCode);
   });
-
-
 
 });
 
