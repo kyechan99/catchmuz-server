@@ -192,7 +192,7 @@
       "name": "난감하네 - 프로젝트 락",
       "code": "YVDw265N8aw",
       "start": 0,
-      "tags": [ "국악", "프로젝트 락", "2015", "추억의그노래" ],
+      "tags": [ "국악", "프로젝트 락", "2015" ],
       "answer": [ "난감하네" ]
     },
     {
@@ -360,7 +360,7 @@
         "name": "씨스루 - 프라이머리",
         "code": "Na7voCrpzF0",
         "start": 0,
-        "tags": ["힙합", "PL(Yun DDanDDan)", "2012", "추억의그노래"],
+        "tags": ["힙합", "프라이머리(Primary)", "2012", "추억의그노래"],
         "answer": ["씨스루", "seethru"]
     },
     {
@@ -417,7 +417,7 @@
         "code": "MzCbEdtNbJ0",
         "start": 0,
         "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
-        "answer": ["하루하루, HARUHARU"]
+        "answer": ["하루하루", "HARUHARU"]
     },
     {
         "name": "거짓말 - 빅뱅",
@@ -450,7 +450,7 @@
     {
         "name": "픽션 - 비스트",
         "code": "ZAzWT8mRoR0",
-        "start": 0,
+        "start": 20,
         "tags": ["케이팝", "비스트", "2009", "추억의그노래"],
         "answer": ["픽션, fiction"]
     },
@@ -471,7 +471,7 @@
     {
         "name": "붉은노을 - 빅뱅",
         "code": "oJIWY9W5WAM",
-        "start": 0,
+        "start": 8,
         "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
         "answer": ["붉은노을"]
     },
@@ -484,7 +484,7 @@
     },
     {
         "name": "밥만 잘먹더라 - 창민&이현",
-        "code": "BrR_gaatQoM",
+        "code": "2tDmeZeNF1Y",
         "start": 0,
         "tags": ["케이팝", "창민&이현", "2011", "추억의그노래"],
         "answer": ["밥만잘먹더라"]
@@ -506,7 +506,7 @@
     {
         "name": "쩔어 - gd&top",
         "code": "D8t8A8E_Tqc",
-        "start": 0,
+        "start": 15,
         "tags": ["케이팝", "gd&top", "2015"],
         "answer": ["쩔어"]
     },
@@ -520,7 +520,7 @@
     {
         "name": "Gee - 소녀시대",
         "code": "bKtvDv7eykg",
-        "start": 0,
+        "start": 17,
         "tags": ["케이팝", "소녀시대", "2009", "추억의그노래"],
         "answer": ["gee"]
     },
@@ -628,5 +628,26 @@
         "start": 0,
         "tags": [ "여자아이돌", "(여자)아이들", "2020" ],
         "answer": [ "dumdidumdi", "덤디덤디" ]
+      },
+      {
+        "name": "Alcohol-Free - 트와이스",
+        "code": "pUAjfHGsyK4",
+        "start": 0,
+        "tags": [ "여자아이돌", "2021", "트와이스" ],
+        "answer": [ "알코올프리", "alcoholfree", "alcohol-free", "TOP100" ]
+      },
+      {
+        "name": "ASAP - STAYC(스테이씨)",
+        "code": "XKH20-WCHpY",
+        "start": 0,
+        "tags": [ "여자아이돌", "2021", "STAYC(스테이씨)", "TOP100" ],
+        "answer": [ "ASAP", "에이쎕" ]
+      },
+      {
+        "name": "Lovesick Girls - 블랙핑크",
+        "code": "qt81CWVHgjI",
+        "start": 0,
+        "tags": [ "여자아이돌", "2020", "블랙핑크" ],
+        "answer": [ "lovesickgirls" ]
       }
 ]
