@@ -530,5 +530,103 @@
         "start": 0,
         "tags": ["케이팝", "원더걸스", "2011", "추억의그노래"],
         "answer": ["tellme", "텔미"]
-    }
+    },
+    {
+        "name": "ALIEN - 이수현(LEE SUHYUN)",
+        "code": "GywDFkY3z-c",
+        "start": 0,
+        "tags": [ "시티팝", "악동뮤지션", "2020", "최신곡" ],
+        "answer": [ "에일리언", "alien" ]
+      },
+      {
+        "name": "어떻게 이별까지 사랑하겠어, 널 사랑하는거지 - 악동뮤지션",
+        "code": "mZz9uYdj_v4",
+        "start": 0,
+        "tags": [ "발라드", "악동뮤지션", "2019", "최신곡" ],
+        "answer": [ "어떻게이별까지사랑하겠어널사랑하는거지", "어떻게이별까지사랑하겠어,널사랑하는거지" ]
+      },
+      {
+        "name": "DINOSAUR - 악동뮤지션",
+        "code": "WNp_XLCOTBw",
+        "start": 0,
+        "tags": [ "발라드", "악동뮤지션", "2017" ],
+        "answer": [ "dinosaur", "다이노소어" ]
+      },
+      {
+        "name": "Closer - 오마이걸",
+        "code": "8Jam5-buj6k",
+        "start": 19,
+        "tags": [ "여자아이돌", "오마이걸", "2015" ],
+        "answer": [ "closer" ]
+      },
+      {
+        "name": "BUNGEE - 오마이걸",
+        "code": "60K1Zf1IGcM",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2019" ],
+        "answer": [ "bungee", "번지" ]
+      },
+      {
+        "name": "다섯번째 계절 - 오마이걸",
+        "code": "klMIr6Cw3mQ",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2019" ],
+        "answer": [ "다섯번째계절" ]
+      },
+      {
+        "name": "살짝 설렜어 - 오마이걸",
+        "code": "Swwnu3ohpM",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2020" ],
+        "answer": [ "살짝설렜어", "nonstop" ]
+      },
+      {
+        "name": "한 발짝 두 발짝 - 오마이걸",
+        "code": "FNMGq8t9kHY",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2016" ],
+        "answer": [ "한발짝두발짝" ]
+      },
+      {
+        "name": "미제 (Case No.L5VE) - 오마이걸",
+        "code": "qtp4YFmzzDs",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2019" ],
+        "answer": [ "미제" ]
+      },
+      {
+        "name": "심해(마음이라는 바다) - 오마이걸",
+        "code": "qcNAlIA9jVE",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2019" ],
+        "answer": [ "심해" ]
+      },
+      {
+        "name": "숲의아이 - 유아(오마이걸)",
+        "code": "mWjJ3btIg",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2020" ],
+        "answer": [ "숲의아이" ]
+      },
+      {
+        "name": "자각몽(Abracadabra) - 유아(오마이걸)",
+        "code": "moat6ihl2p0",
+        "start": 0,
+        "tags": [ "여자아이돌", "오마이걸", "2020" ],
+        "answer": [ "자각몽", "abracadabra" ]
+      },
+      {
+        "name": "LATATA - (여자)아이들",
+        "code": "9mQk7Evt6Vs",
+        "start": 0,
+        "tags": [ "여자아이돌", "(여자)아이들", "2018" ],
+        "answer": [ "라타타", "latata" ]
+      },
+      {
+        "name": "DUMDi DUMDi - (여자)아이들",
+        "code": "JIKqqPQ-0Ow",
+        "start": 0,
+        "tags": [ "여자아이돌", "(여자)아이들", "2020" ],
+        "answer": [ "dumdidumdi", "덤디덤디" ]
+      }
 ]
