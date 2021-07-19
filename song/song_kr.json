@@ -35,13 +35,6 @@
         "answer": ["넥스트레벨", "nextlevel"]
     },
     {
-        "name": "Dun Dun Dance - 오마이걸",
-        "code": "HzOjwL7IP_o",
-        "start": 55,
-        "tags": ["여자 아이돌", "오마이걸", "2021", "트렌드", "최신곡", "TOP100"],
-        "answer": ["던던댄스", "dundundance"]
-    },
-    {
         "name": "예뻐 예뻐 - 레이디스코드",
         "code": "xD6VjvfcBIs",
         "start": 0,
@@ -106,10 +99,10 @@
     },
     {
         "name": "Cigarette - OFFONOFF",
-        "code": "b1uifHd1Zn8",
+        "code": "AamatUtxev4",
         "start": 0,
         "tags": ["힙합", "OFFONOFF", "2018", "싱잉랩"],
-        "answer": ["cigarette"]
+        "answer": ["cigarette", "시가렛"]
     },
     {
         "name": "Up Down - Anonymous Artists",
@@ -186,13 +179,482 @@
       "code": "Med2XipHJJM",
       "start": 0,
       "tags": [ "오렌지캬라멜", "여자 아이돌", "2014", "유닛", "추억의그노래" ],
-      "answer": [ "카탈레나" ]
+      "answer": [ "까탈레나" ]
     },
     {
       "name": "난감하네 - 프로젝트 락",
       "code": "YVDw265N8aw",
       "start": 0,
-      "tags": [ "국악", "프로젝트 락", "2015", "주억의그노래" ],
+      "tags": [ "국악", "프로젝트 락", "2015" ],
       "answer": [ "난감하네" ]
+    },
+    {
+      "name": "다이하드 - 신현희와김루트",
+      "code": "X9-LQ3rxpFM",
+      "start": 0,
+      "tags": ["신현희와김루트", "2016", "추억의그노래" ],
+      "answer": [ "다이하드" ]
+    },
+    {
+      "name": "스물다섯 스물하나 - 자우림",
+      "code": "qvJ1FHRR1n8",
+      "start": 0,
+      "tags": ["록", "자우림", "2013", "추억의그노래"],
+      "answer": [ "스물다섯스물하나" ]
+    },
+    {
+      "name": "천태만상 - 윤수현",
+      "code": "wMgxe96iDfw",
+      "start": 0,
+      "tags": [ "트로트", "윤수현", "2014", "여성 가수"],
+      "answer": [ "천태만상" ]
+    },
+    {
+      "name": "잊을게 - YB",
+      "code": "4-O-wWuTvKY",
+      "start": 0,
+      "tags": [ "록", "YB", "2003", "추억의그노래" ],
+      "answer": [ "잊을게" ]
+    },
+    {
+      "name": "그 중에 그대를 만나 - 이선희",
+      "code": "IAyMtl9FRHI",
+      "start": 0,
+      "tags": [ "발라드", "이선희", "2014", "추억의그노래" ],
+      "answer": [ "그중에그대를만나" ]
+    },
+    {
+      "name": "인연 - 이선희",
+      "code": "kUJv343NHsU",
+      "start": 0,
+      "tags": [ "발라드", "이선희", "2009", "추억의그노래", "여성 가수"],
+      "answer": [ "인연" ]
+    },
+    {
+      "name": "그건 니 생각이고 - 장기하와 얼굴들",
+      "code": "h28fhU-mjDA",
+      "start": 0,
+      "tags": [ "인디음악", "장기하와 얼굴들", "2018"],
+      "answer": [ "그건니생각이고" ]
+    },
+    {
+      "name": "싸구려 커피 - 장기하와 얼굴들",
+      "code": "cb0V4Dc1nnE",
+      "start": 21,
+      "tags": [ "록", "장기하와 얼굴들", "2008"],
+      "answer": [ "싸구려커피" ]
+    },
+    {
+      "name": "달이 차오른다, 가자 - 장기하와 얼굴들",
+      "code": "wG2lDphHVR8",
+      "start": 24,
+      "tags": [ "인디음악", "장기하와 얼굴들", "2009"],
+      "answer": [ "달이차오른다가자", "달이차오른다,가자" ]
+    },
+    {
+      "name": "풍문으로 들었소 - 장기하와 얼굴들",
+      "code": "Gg8dWs5g9jg",
+      "start": 0,
+      "tags": [ "OST", "장기하와 얼굴들", "2012"],
+      "answer": [ "풍문으로들었소" ]
+    },
+    {
+      "name": "우리 지금 만나 - 장기하와 얼굴들",
+      "code": "2lEWCF7ZkFk",
+      "start": 49,
+      "tags": [ "랩", "장기하와 얼굴들", "2009"],
+      "answer": [ "우리지금만나" ]
+    },
+    {
+      "name": "아스라이 - 엠씨더맥스",
+      "code": "C_aaRUR738g",
+      "start": 0,
+      "tags": [ "발라드", "엠씨더맥스", "2016"],
+      "answer": [ "아스라이" ]
+    },
+    {
+      "name": "밤새 - 카더가든",
+      "code": "lcLBV2fcad0",
+      "start": 0,
+      "tags": ["발라드", "카더가든", "2020", "Top 100"],
+      "answer": ["밤새"]
+    },
+    {
+        "name": "애월리 - 규현",
+        "code": "v_s7Vif3oDY",
+        "start": 0,
+        "tags": ["발라드", "규현", "2019", "가요"],
+        "answer": ["애월리"]
+    },
+    {
+        "name": "내 마음이 움찔했던 순간 - 규현",
+        "code": "vIPug7A8Fds",
+        "start": 0,
+        "tags": ["발라드", "규현", "2020", "TOP 100"],
+        "answer": ["내마음이움찔했던순간"]
+    },
+    {
+        "name": "밀리언조각 - 규현",
+        "code": "N_wbXDtZj6I",
+        "start": 0,
+        "tags": ["발라드", "규현", "2015", "가요"],
+        "answer": ["밀리언조각"]
+    },
+    {
+        "name": "광화문에서 - 규현",
+        "code": "GAdFpZHTh1I",
+        "start": 0,
+        "tags": ["발라드", "규현", "2016", "TOP 100"],
+        "answer": ["광화문에서"]
+    },
+    {
+        "name": "6 To 9 - 카더가든",
+        "code": "NpxLpJ04riE",
+        "start": 0,
+        "tags": ["힙합", "카더가든", "2019", "싱잉랩"],
+        "answer": ["6to9", "69", "sixtonine"]
+    },
+    {
+        "name": "영원처럼 안아줘 - 프롬",
+        "code": "JGiNio9x4dI",
+        "start": 0,
+        "tags": ["발라드", "프롬", "2018", "감성"],
+        "answer": ["영원처럼안아줘"]
+    },
+    {
+        "name": "We(Oui) - 지바노프",
+        "code": "eGbEQuk_8uk",
+        "start": 0,
+        "tags": ["힙합", "지바노프", "2019", "싱잉랩"],
+        "answer": ["we", "oui"]
+    },
+    {
+        "name": "MALIBU - 피엘",
+        "code": "E-YXcHtyn2c",
+        "start": 0,
+        "tags": ["알앤비", "PL(피엘)", "2019", "감성"],
+        "answer": ["malibu", "말리부"]
+    },
+    {
+        "name": "니가 보고싶은 밤 - 윤딴딴",
+        "code": "HCc1UvTQ1Hg",
+        "start": 0,
+        "tags": ["발라드", "윤딴딴(Yun DDanDDan)", "2019", "가요"],
+        "answer": ["니가보고싶은밤"]
+    },
+    {
+        "name": "겨울을 걷는다 - 윤딴딴",
+        "code": "G2fjG30vfYA",
+        "start": 0,
+        "tags": ["발라드", "윤딴딴(Yun DDanDDan)", "2020", "가요"],
+        "answer": ["겨울을걷는다"]
+    },
+    {
+        "name": "씨스루 - 프라이머리",
+        "code": "Na7voCrpzF0",
+        "start": 0,
+        "tags": ["힙합", "프라이머리(Primary)", "2012", "추억의그노래"],
+        "answer": ["씨스루", "seethru"]
+    },
+    {
+        "name": "숙녀 - 유빈",
+        "code": "2MiQonPvlVM",
+        "start": 0,
+        "tags": ["시티팝", "유빈(Yubin)", "2018", "가요"],
+        "answer": ["숙녀", "lady"]
+    },
+    {
+        "name": "손편지 - 그_냥",
+        "code": "QPhFpe_RcIM",
+        "start": 0,
+        "tags": ["발라드", "그_냥(Just)", "2019", "감성"],
+        "answer": ["손편지", "ahandwrittenletter"]
+    },
+    {
+        "name": "봄비 - 장범준",
+        "code": "u0hEgrjqQro",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2016", "감성"],
+        "answer": ["봄비", "springrain"]
+    },
+    {
+        "name": "사랑에 빠졌죠 - 장범준",
+        "code": "nQRBLrtohxA",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2016", "감성"],
+        "answer": ["사랑에빠졌죠", "falleninlove","falleninloveonlywithyou"]
+    },
+    {
+        "name": "일산으로 - 장범준",
+        "code": "ScJ4m-qXWuw",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2019", "감성"],
+        "answer": ["일산으로"]
+    },
+    {
+        "name": "마지막 인사 - 빅뱅",
+        "code": "MP0pXENQkaA",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래", "남자 아이돌"],
+        "answer": ["마지막인사"]
+    },
+    {
+        "name": "하루하루 - 빅뱅",
+        "code": "MzCbEdtNbJ0",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래", "남자 아이돌"],
+        "answer": ["하루하루", "HARUHARU"]
+    },
+    {
+        "name": "거짓말 - 빅뱅",
+        "code": "Hy0W7AqDC_c",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래", "남자 아이돌"],
+        "answer": ["거짓말"]
+    },
+    {
+        "name": "링딩동 - 샤이니",
+        "code": "roughtzsCDI",
+        "start": 0,
+        "tags": ["케이팝", "샤이니", "2009", "추억의그노래", "남자 아이돌"],
+        "answer": ["링딩동"]
+    },
+    {
+        "name": "누난 너무 예뻐 - 샤이니",
+        "code": "VTASffPQGhY",
+        "start": 0,
+        "tags": ["케이팝", "샤이니", "2011", "추억의그노래", "남자 아이돌"],
+        "answer": ["누난너무예뻐"]
+    },
+    {
+        "name": "픽션 - 비스트",
+        "code": "ZAzWT8mRoR0",
+        "start": 20,
+        "tags": ["케이팝", "비스트", "2009", "추억의그노래", "남자 아이돌"],
+        "answer": ["픽션", "fiction"]
+    },
+    {
+        "name": "쇼크 - 비스트",
+        "code": "JXxGo1MvNls",
+        "start": 0,
+        "tags": ["케이팝", "비스트", "2010", "추억의그노래", "남자 아이돌"],
+        "answer": ["쇼크", "shock"]
+    },
+    {
+        "name": "으르렁 - 엑소",
+        "code": "I3dezFzsNss",
+        "start": 0,
+        "tags": ["케이팝", "엑소", "2013", "추억의그노래", "남자 아이돌"],
+        "answer": ["으르렁"]
+    },
+    {
+        "name": "붉은노을 - 빅뱅",
+        "code": "oJIWY9W5WAM",
+        "start": 8,
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래", "남자 아이돌"],
+        "answer": ["붉은노을"]
+    },
+    {
+        "name": "heartbeat - 2pm",
+        "code": "bKtvDv7eykg",
+        "start": 0,
+        "tags": ["케이팝", "2pm", "2009", "추억의그노래", "남자 아이돌"],
+        "answer": ["하트비트", "heartbeat"]
+    },
+    {
+        "name": "밥만 잘먹더라 - 창민&이현",
+        "code": "2tDmeZeNF1Y",
+        "start": 0,
+        "tags": ["케이팝", "창민&이현", "2011", "추억의그노래", "남자 아이돌"],
+        "answer": ["밥만잘먹더라"]
+    },
+    {
+        "name": "high high - gd&top",
+        "code": "X5XVbVnPis4",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2010", "남자 아이돌"],
+        "answer": ["하이하이", "highhigh"]
+    },
+    {
+        "name": "뻑이가요 - gd&top",
+        "code": "4YAHlsLFhrk",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2016", "남자 아이돌"],
+        "answer": ["뻑이가요"]
+    },
+    {
+        "name": "쩔어 - gd&top",
+        "code": "D8t8A8E_Tqc",
+        "start": 15,
+        "tags": ["케이팝", "gd&top", "2015", "남자 아이돌"],
+        "answer": ["쩔어"]
+    },
+    {
+        "name": "집에 가지마 - gd&top",
+        "code": "aLbkqk1u2RI",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2008", "추억의그노래", "남자 아이돌"],
+        "answer": ["집에가지마"]
+    },
+    {
+        "name": "Gee - 소녀시대",
+        "code": "U7mPqycQ0tQ",
+        "start": 17,
+        "tags": ["케이팝", "소녀시대", "2009", "추억의그노래", "여자 아이돌"],
+        "answer": ["gee"]
+    },
+    {
+        "name": "Tell Me - 원더걸스",
+        "code": "3vVHy0XoIN4",
+        "start": 20,
+        "tags": ["케이팝", "원더걸스", "2011", "추억의그노래", "여자 아이돌"],
+        "answer": ["tellme", "텔미"]
+    },
+    {
+        "name": "ALIEN - 이수현(LEE SUHYUN)",
+        "code": "GywDFkY3z-c",
+        "start": 0,
+        "tags": [ "시티팝", "악동뮤지션", "2020" ],
+        "answer": [ "에일리언", "alien" ]
+      },
+      {
+        "name": "어떻게 이별까지 사랑하겠어, 널 사랑하는거지 - 악동뮤지션",
+        "code": "mZz9uYdj_v4",
+        "start": 0,
+        "tags": [ "발라드", "악동뮤지션", "2019" ],
+        "answer": [ "어떻게이별까지사랑하겠어널사랑하는거지", "어떻게이별까지사랑하겠어,널사랑하는거지" ]
+      },
+      {
+        "name": "DINOSAUR - 악동뮤지션",
+        "code": "WNp_XLCOTBw",
+        "start": 0,
+        "tags": [ "발라드", "악동뮤지션", "2017" ],
+        "answer": [ "dinosaur", "다이노소어" ]
+      },
+      {
+        "name": "LATATA - (여자)아이들",
+        "code": "9mQk7Evt6Vs",
+        "start": 0,
+        "tags": [ "여자 아이돌", "(여자)아이들", "2018" ],
+        "answer": [ "라타타", "latata" ]
+      },
+      {
+        "name": "DUMDi DUMDi - (여자)아이들",
+        "code": "JIKqqPQ-0Ow",
+        "start": 0,
+        "tags": [ "여자 아이돌", "(여자)아이들", "2020", "여자 아이돌" ],
+        "answer": [ "dumdidumdi", "덤디덤디" ]
+      },
+      {
+        "name": "Alcohol-Free - 트와이스",
+        "code": "pUAjfHGsyK4",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2021", "트와이스", "여자 아이돌", "TOP100" ],
+        "answer": [ "알코올프리", "alcoholfree", "alcohol-free" ]
+      },
+      {
+        "name": "ASAP - STAYC(스테이씨)",
+        "code": "XKH20-WCHpY",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2021", "STAYC(스테이씨)", "TOP100" ],
+        "answer": [ "asap", "에이쎕" ]
+      },
+      {
+        "name": "Lovesick Girls - 블랙핑크",
+        "code": "qt81CWVHgjI",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2020", "블랙핑크", "여자 아이돌" ],
+        "answer": [ "lovesickgirls" ]
+      },
+      {
+        "name": "운전만해 - 브레이브걸스",
+        "code": "4HjcypoChfQ",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2021", "브레이브걸스", "TOP100", "여자 아이돌" ],
+        "answer": [ "운전만해" ]
+      },
+      {
+        "name": "여행 - 볼빨간사춘기",
+        "code": "xRbPAVnqtcs",
+        "start": 0,
+        "tags": [ "2018", "볼빨간사춘기", "포크" ],
+        "answer": [ "여행", "trip" ]
+      },
+      {
+        "name": "좋다고 말해 - 볼빨간사춘기",
+        "code": "y5MAgMVwfFs",
+        "start": 0,
+        "tags": [ "2016", "볼빨간사춘기", "포크" ],
+        "answer": [ "좋다고말해" ]
+      },
+      {
+        "name": "나의 사춘기에게 - 볼빨간사춘기",
+        "code": "0tkgGcnRNTE",
+        "start": 0,
+        "tags": [ "2017", "볼빨간사춘기", "포크" ],
+        "answer": [ "나의사춘기에게" ]
+      },
+      {
+        "name": "Closer - 오마이걸",
+        "code": "8Jam5-buj6k",
+        "start": 19,
+        "tags": [ "여자 아이돌", "오마이걸", "2015" ],
+        "answer": [ "closer" ]
+    },
+    {
+        "name": "BUNGEE - 오마이걸",
+        "code": "60K1Zf1IGcM",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "bungee", "번지" ]
+    },
+    {
+        "name": "다섯번째 계절 - 오마이걸",
+        "code": "klMIr6Cw3mQ",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "다섯번째계절" ]
+    },
+    {
+        "name": "살짝 설렜어 - 오마이걸",
+        "code": "_Swwnu3ohpM",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "살짝설렜어", "nonstop" ]
+    },
+    {
+        "name": "한 발짝 두 발짝 - 오마이걸",
+        "code": "FNMGq8t9kHY",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2016" ],
+        "answer": [ "한발짝두발짝" ]
+    },
+    {
+        "name": "미제 (Case No.L5VE) - 오마이걸",
+        "code": "qtp4YFmzzDs",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "미제" ]
+    },
+    {
+        "name": "심해(마음이라는 바다) - 오마이걸",
+        "code": "qcNAlIA9jVE",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "심해" ]
+    },
+    {
+        "name": "숲의아이 - 유아(오마이걸)",
+        "code": "3-mWjJ3btIg",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "숲의아이" ]
+    },
+    {
+        "name": "자각몽(Abracadabra) - 유아(오마이걸)",
+        "code": "moat6ihl2p0",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "자각몽", "abracadabra" ]
     }
 ]
