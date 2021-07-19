@@ -1,13 +1,13 @@
 [
     {
-        "name": "グッバイ宣言 - v flower",
+        "name": "グッバイ宣言(굿바이선언) - v flower",
         "code": "5Ct_tDR_Xu4",
         "start": 0,
         "tags": ["Vocaloid", "2020"],
         "answer": ["グッバイ宣言", "굿바이선언", "goodbyedeclaration"]
     },
     {
-        "name": "花のうた - 하나땅",
+        "name": "花のうた(꽃의 노래) - 하나땅",
         "code": "aNMQ7VlUtuM",
         "start": 0,
         "tags": ["J-pop", "Vocaloid", "2013", "하나땅"],
@@ -21,21 +21,21 @@
         "answer": ["silent"]
     },
     {
-        "name": "群青 - YOASOBI",
+        "name": "群青(군청) - YOASOBI",
         "code": "Y4nEEZwckuU",
         "start": 2,
         "tags": ["J-pop", "2021", "YOASOBI"],
         "answer": ["群青", "군청"]
     },
     {
-        "name": "あの夢をなぞって - YOASOBI",
+        "name": "あの夢をなぞって(그 꿈을 덧그리며) - YOASOBI",
         "code": "sAuEeM_6zpk",
         "start": 0,
         "tags": ["J-pop", "YOASOBI", "2021"],
-        "answer": ["あの夢をなぞって", "저꿈을덧그리며", "studyme"]
+        "answer": ["あの夢をなぞって", "저꿈을덧그리며", "그꿈을덧그리며", "studyme"]
     },
     {
-        "name": "たぶん - YOASOBI",
+        "name": "たぶん(아마도) - YOASOBI",
         "code": "Atvsg_zogxo",
         "start": 0,
         "tags": ["J-pop", "YOASOBI", "2021"],
@@ -63,21 +63,21 @@
         "answer": ["universe"]
     },
     {
-        "name": "お勉強しといてよ - ずっと真夜中でいいのに",
+        "name": "お勉強しといてよ(공부해 줘) - ずっと真夜中でいいのに",
         "code": "Atvsg_zogxo",
         "start": 0,
         "tags": ["J-pop", "2021", "ずっと真夜中でいいのに(계속 한밤중이면 좋을텐데)"],
         "answer": ["お勉強しといてよ", "공부해줘", "studyme"]
     },
     {
-        "name": "夜に駆ける - YOASOBI",
+        "name": "夜に駆ける(밤을 달리다) - YOASOBI",
         "code": "x8VYWazR5mE",
         "start": 0,
         "tags": ["J-pop", "YOASOBI", "2019", "Tiktok"],
         "answer": ["夜に駆ける", "밤을달리다"]
     },
     {
-        "name": "恋音と雨空 - AAA",
+        "name": "恋音と雨空(사랑의 소리와 비 오는하늘) - AAA",
         "code": "A_1t2Dkd2Io",
         "start": 0,
         "tags": ["J-pop", "AAA", "2013"],
@@ -91,56 +91,49 @@
         "answer": ["heartbreaker"]
     },
     {
-        "name": "化身 - ポルカドットスティングレイ",
+        "name": "化身(화신) - ポルカドットスティングレイ",
         "code": "U609b7lOAII",
         "start": 0,
         "tags": ["J-pop", "폴카닷 스팅레이", "2020"],
         "answer": ["化身", "화신", "keshin"]
     },
     {
-        "name": "思想犯 - ヨルシカ",
-        "code": "ENcnYh79dUY",
-        "start": 0,
-        "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
-        "answer": ["思想犯", "사상범", "thoughtcrime"]
-    },
-    {
-        "name": "風を食む - ヨルシカ",
+        "name": "風を食む(바람을 먹다) - ヨルシカ",
         "code": "GVrRXhS0mLs",
         "start": 8,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
         "answer": ["風を食む", "바람을먹다", "eatthewind"]
     },
     {
-        "name": "思想犯 - ヨルシカ",
+        "name": "思想犯(사상범) - ヨルシカ",
         "code": "ENcnYh79dUY",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
         "answer": ["思想犯", "사상범", "thoughtcrime"]
     },
     {
-        "name": "恋のうた - Yunomi",
+        "name": "恋のうた(사랑의 노래) - Yunomi",
         "code": "LaOYJpJN9nU",
         "start": 0,
         "tags": ["애니op", "Yunomi", "2020"],
         "answer": ["恋のうた", "사랑의노래"]
     },
     {
-        "name": "天使にふれたよ! - けいおん!",
+        "name": "天使にふれたよ!(천사를 만났어) - けいおん!",
         "code": "l8O9rfxBLRg",
         "start": 0,
         "tags": ["애니ost", "2010"],
         "answer": ["天使にふれたよ", "천사를만났어", "thoughtcrime"]
     },
     {
-        "name": "夜永唄 - 神はサイコロを振らない",
+        "name": "夜永唄(야빙가) - 神はサイコロを振らない",
         "code": "Nij9BiHzP7E",
         "start": 10,
         "tags": ["J-pop", "애니ost", "2019"],
         "answer": ["夜永唄", "야빙가", "yonagauta"]
     },
     {
-        "name": "敗北の少年 - PENGUIN RESEARCH",
+        "name": "敗北の少年(패배의 소년) - PENGUIN RESEARCH",
         "code": "0MSycY_KG3I",
         "start": 0,
         "tags": ["J-pop", "록", "Vocaloid", "PENGUIN RESEARCH", "2016"],
@@ -154,70 +147,70 @@
         "answer": ["1%"]
     },
     {
-        "name": "みちしるべ - 茅原実里",
+        "name": "みちしるべ(이정표) - 茅原実里",
         "code": "lOMfQqqxpII",
         "start": 0,
         "tags": ["애니ed", "2018", "茅原実里(치하라 미노리)"],
         "answer": ["みちしるべ", "이정표"]
     },
     {
-        "name": "さくらんぼ - 大塚 愛",
+        "name": "さくらんぼ(사쿠란보) - 大塚 愛",
         "code": "pE5dfZr4KD4",
         "start": 0,
         "tags": ["J-pop", "大塚 愛", "2004", "Tiktok"],
         "answer": ["さくらんぼ", "사쿠란보"]
     },
     {
-        "name": "愛にできることはまだあるかい - RADWIMPS",
+        "name": "愛にできることはまだあるかい(사랑이 할 수 있는 일이 아직있을까) - RADWIMPS",
         "code": "lCHExX3NypM",
         "start": 10,
         "tags": ["애니ost", "RADWIMPS", "2019", "록"],
         "answer": ["愛にできることはまだあるかい", "사랑이할수있는일이아직있을까"]
     },
     {
-        "name": "紅蓮華 - LiSA",
+        "name": "紅蓮華(홍련화) - LiSA",
         "code": "AU4kC_tYXGE",
         "start": 0,
         "tags": ["애니op", "LiSA", "2019"],
         "answer": ["紅蓮華", "홍련화"]
     },
     {
-        "name": "幸せ - back number",
+        "name": "幸せ(행복) - back number",
         "code": "zZQvp1A7JrE",
         "start": 0,
         "tags": ["애니op", "back number", "2011"],
         "answer": ["幸せ", "행복"]
     },
     {
-        "name": "ただ君に晴れ - ヨルシカ",
+        "name": "ただ君に晴れ(그저 네게 맑아라) - ヨルシカ",
         "code": "VKIqrvVOpo",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
         "answer": ["ただ君に晴れ", "그저네게맑아라"]
     },
     {
-        "name": "嘘月 - ヨルシカ",
+        "name": "嘘月(거짓말 쟁이) - ヨルシカ",
         "code": "VovGHh2sCnM",
         "start": 0,
         "tags": ["애니ed", "ヨルシカ(요루시카)", "2021"],
         "answer": ["嘘月", "거짓말쟁이", "Liar"]
     },
     {
-        "name": "猫 - Dish//",
+        "name": "猫(고양이) - Dish//",
         "code": "gsT6eKsnT0M",
         "start": 55,
         "tags": ["J-pop", "Dish//", "2017"],
         "answer": ["猫", "고양이"]
     },
     {
-        "name": "さよならメモリーズ - supercell",
+        "name": "さよならメモリーズ(사요나라 메모리즈) - supercell",
         "code": "QiVkKYw8Iao",
         "start": 0,
         "tags": ["J-pop", "supercell", "2013"],
         "answer": ["さよならメモリーズ", "사요나라메모리즈"]
     },
     {
-        "name": "あの娘シークレット - Eve",
+        "name": "あの娘シークレット(그 아이 시크릿) - Eve",
         "code": "sgdPlDG1-8k",
         "start": 0,
         "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "Eve", "2017"],
@@ -231,32 +224,32 @@
         "answer": ["휴머노이드", "Humanoid"]
     },
     {
-        "name": "くらべられっ子 - ツユ",
+        "name": "くらべられっ子(비교당하는 아이) - ツユ",
         "code": "olWvy0PiLfA",
         "start": 0,
         "tags":["J-pop", "ツユ(츠유)", "2019"],
         "answer": ["くらべられっ子", "비교당하는아이"]
     },
     {
-      "name": "シグナル - WANIMA",
+      "name": "シグナル(시그널) - WANIMA",
       "code": "DSZUUnaeWFQ",
       "start": 29,
       "tags": [ "WANIMA", "J-pop", "2018" ],
       "answer": [ "シグナル", "시그널", "signal" ]
     },
     {
-      "name": "ともに - WANIMA",
+      "name": "ともに(함께) - WANIMA",
       "code": "qag4ewos4TE",
       "start": 1,
       "tags": [ "WANIMA", "J-pop", "2016" ],
-      "answer": [ "ともに", "토모니", "tomoni" ]
+      "answer": [ "ともに", "토모니", "함께", "tomoni" ]
     },
     {
-      "name": "サクラミツツキ - SPYAIR",
+      "name": "サクラミツツキ(벛꽃만월) - SPYAIR",
       "code": "CpGPYFU4n0Y",
       "start": 0,
       "tags": [ "J-pop", "SPYAIR", "2013", "애니ost", "록" ],
-      "answer": [ "サクラミツツキ", "벛꽃만월", "sakuramitsutsuki" ]
+      "answer": [ "サクラミツツキ", "벚꽃만월", "sakuramitsutsuki" ]
     },
     {
       "name": "メギツネ - BABYMETAL",
@@ -266,21 +259,21 @@
       "answer": [ "メギツネ", "메기츠네", "암여우", "megitsune" ]
     },
     {
-      "name": "ギミチョコ!! - BABYMETAL",
+      "name": "ギミチョコ!!(김미쵸코) - BABYMETAL",
       "code": "WIKqgE4BwAY",
       "start": 6,
       "tags": [ "J-pop", "BABYMETAL", "2013", "헤비메탈" ],
       "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
     },
     {
-      "name": "ロックな君とはお別れだ - ツユ",
+      "name": "ロックな君とはお別れだ(Rock 한너와작별이야) - ツユ",
       "code": "1cGQotpn8r4",
       "start": 5,
       "tags": [ "J-pop", "ツユ(츠유)", "2020"],
-      "answer": [ "ロックな君とはお別れだ", "록한너와작별이야", "Rock한너와작별이야" ]
+      "answer": [ "ロックな君とはお別れだ", "록한너와작별이야", "rock한너와작별이야" ]
     },
     {
-      "name": "心做し - 하나땅",
+      "name": "心做し(마음짓기) - 하나땅",
       "code": "Fl3ZEiZu--s",
       "start": 0,
       "tags": [ "Vocaloid", "2014", "하나땅"],
@@ -301,126 +294,119 @@
       "answer": ["살아있어줘", "stayalive" ]
     },
     {
-        "name": "春ひさぎ - ヨルシカ",
+        "name": "春ひさぎ(봄팔이) - ヨルシカ",
         "code": "F3cXxqgbx9Y",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
         "answer": ["春ひさぎ", "봄팔이", "prostitution"]
     },
     {
-        "name": "夜行 - ヨルシカ",
+        "name": "夜行(야행) - ヨルシカ",
         "code": "MH5noJJfqDY",
         "start": 0,
         "tags": ["J-pop", "록", "ヨルシカ(요루시카)", "2020"],
-        "answer": ["思想犯", "야행", "nightjourney"]
+        "answer": ["夜行", "야행", "nightjourney"]
     },
     {
-        "name": "パレード - ヨルシカ",
+        "name": "パレード(퍼레이드) - ヨルシカ",
         "code": "ry3Tupx4BL4",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
         "answer": ["パレード", "퍼레이드", "thoughtcrime"]
     },
     {
-        "name": "準透明少年 - ヨルシカ",
+        "name": "準透明少年(준투명소년) - ヨルシカ",
         "code": "9ypEFXTakV8",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
-        "answer": ["準透明少年", "준투명 소년", "semitransparen"]
+        "answer": ["準透明少年", "준투명소년", "semitransparen"]
     },
     {
-        "name": "盗作 - ヨルシカ",
+        "name": "盗作(도작) - ヨルシカ",
         "code": "CS4f3jawFxY",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
         "answer": ["盗作", "도작", "plagiarism"]
     },
     {
-        "name": "シュガーソングとビターステップ - UNISON SQUARE GARDEN",
+        "name": "シュガーソングとビターステップ(슈가송과 비터스텝) - UNISON SQUARE GARDEN",
         "code": "mnjtHbY6dxE",
         "start": 0,
         "tags": ["애니ed", "UNISON SQUARE GARDEN", "2016"],
         "answer": ["シュガーソングとビターステップ", "슈가송과비터스텝", "sugarsongtobitterstep"]
     },
     {
-        "name": "花に亡霊 - ヨルシカ",
+        "name": "花に亡霊(꽃의 망령) - ヨルシカ",
         "code": "9lVPAWLWtWc",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2020"],
-        "answer": ["盗作", "꽃의망령", "ghostinaflower"]
+        "answer": ["花に亡霊", "꽃의망령", "ghostinaflower"]
     },
     {
-        "name": "脳裏上のクラッカー - ずっと真夜中でいいのに",
+        "name": "脳裏上のクラッカー(뇌리 위의 크래커) - ずっと真夜中でいいのに",
         "code": "3iAXclHlTTg-U",
         "start": 0,
         "tags": ["J-pop", "2018", "ずっと真夜中でいいのに(계속 한밤중이면 좋을텐데)"],
         "answer": ["脳裏上のクラッカー", "뇌리위의크래커", "nourijyounocracker"]
     },
     {
-        "name": "ヒッチコック - ヨルシカ",
+        "name": "ヒッチコック(히치콕) - ヨルシカ",
         "code": "t7MBzMP4OzY",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
         "answer": ["ヒッチコック", "히치콕", "hitchcock"]
     },
     {
-        "name": "ふたりごと - RADWIMPS",
+        "name": "ふたりごと(둘이서) - RADWIMPS",
         "code": "U7QhdWSffvg",
         "start": 0,
         "tags": ["J-pop", "RADWIMPS", "2006"],
         "answer": ["ふたりごと", "둘이서"]
     },
     {
-        "name": "声 - 初音ミク",
+        "name": "声(목소리) - 初音ミク",
         "code": "HA2rQS6PIyw",
         "start": 0,
         "tags": ["Voacloid", "初音ミク(하츠네미쿠)", "2015"],
         "answer": ["声", "목소리", "voice"]
     },
     {
-        "name": "フラレガイガール - Sayuri",
+        "name": "フラレガイガール(흔들리는 남녀) - Sayuri",
         "code": "0r9sjpPBUWc",
         "start": 0,
         "tags": ["J-pop", "Sayuri", "2019"],
         "answer": ["フラレガイガール", "후라레가이걸", "흔들리는남녀"]
     },
     {
-        "name": "抱きしめて - indigo la End",
+        "name": "抱きしめて(안아줘) - indigo la End",
         "code": "Q2tTBKxvMB4",
         "start": 0,
         "tags": ["J-pop", "indigo la End", "2015"],
         "answer": ["抱きしめて", "안아줘", "dakishimete"]
     },
     {
-        "name": "心に穴が空いた - ヨルシカ",
+        "name": "心に穴が空いた(마음에 구멍이 생기다) - ヨルシカ",
         "code": "DlyG6MAKUOA",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
         "answer": ["心に穴が空いた", "마음에구멍이생기다", "holeintheheart"]
     },
     {
-        "name": "マリーゴールド - あいみょん",
+        "name": "マリーゴールド(메리골드) - あいみょん",
         "code": "_pJxQHjca5M",
         "start": 0,
         "tags": ["J-pop", "あいみょん(아이묭)", "2019"],
         "answer": ["マリーゴールド", "메리골드", "Marigold "]
     },
     {
-        "name": "声 - 初音ミク",
-        "code": "HA2rQS6PIyw",
-        "start": 0,
-        "tags": ["J-pop", "初音ミク(하츠네미쿠)", "2015"],
-        "answer": ["声", "목소리", "voice"]
-    },
-    {
-        "name": "だから僕は音楽を辞めた - ヨルシカ",
+        "name": "だから僕は音楽を辞めた(그래서 나는 음악을 그만두었다) - ヨルシカ",
         "code": "KTZ-y85Erus",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
         "answer": ["だから僕は音楽を辞めた", "그래서나는음악을그만두었다", "Moonlight"]
     },
     {
-        "name": "香水 - 瑛人",
+        "name": "香水(향수) - 瑛人",
         "code": "KTZ-9MjAJSoaoSo",
         "start": 0,
         "tags": ["J-pop", "瑛人(에이토)", "2019", "Tiktok"],
@@ -434,14 +420,14 @@
         "answer": ["yellow"]
     },
     {
-        "name": "カワキヲアメク - 美波",
+        "name": "カワキヲアメク(목마름을 외치다) - 美波",
         "code": "0YF8vecQWYs",
         "start": 0,
         "tags": ["J-pop", "美波(미나미)", "2019"],
         "answer": ["カワキヲアメク", "목마름을외치다"]
     },
     {
-        "name": "春を告げる - yama",
+        "name": "春を告げる(봄을 고하다) - yama",
         "code": "DC6JppqHkaM",
         "start": 0,
         "tags": ["J-pop", "yama ", "2019"],
