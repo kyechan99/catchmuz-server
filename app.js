@@ -19,6 +19,7 @@ server.listen(port, () => {
 
 
 const ROOM_CODE = 'ROOM_';
+const SERVER_VERSION = 'v0.1.0';
 const READY_STATE = 0;
 const PLAYING_STATE = 1;
 const WAITING_STATE = 2;
@@ -38,12 +39,13 @@ function shuffle(a) {
 }
 
 io.on('connection', (socket) => {
+  console.log('SERVER VERSION ', SERVER_VERSION);
   console.log("연결된 socketID : ", socket.id);
 
   // 접속하면 socketId를 저장하게함 io.to(socket.id)
   socket.emit('my socket id', {
     socketId: socket.id,
-    server_version: 'v0.1.0'
+    server_version: SERVER_VERSION
   });
 
   function nextSong(roomCode) {
@@ -103,6 +105,7 @@ io.on('connection', (socket) => {
         }
       ],
       songList: [],
+      skipCount: [],
       isPlaying: READY_STATE
     };
 
@@ -126,7 +129,7 @@ io.on('connection', (socket) => {
         } else {
           
           // 인원수 체크
-          if (roomData[data.roomCode].userList.length + 1 > roomData[data.roomCode].maxUserNum ||
+          if (roomData[data.roomCode].userList.length + 1 >= roomData[data.roomCode].maxUserNum ||
               roomData[data.roomCode].isPlaying) {
             // 내가 들어가면 인원수가 넘치거나 게임중인 방에 강제로 접속했음
             socket.emit('forced exit');
@@ -177,8 +180,28 @@ io.on('connection', (socket) => {
   // Room - Send Chat
   socket.on('send chat', data => {
     data.isAnswer = false;
+
     if (roomData[data.roomCode].isPlaying === PLAYING_STATE) {
-      // Check is Answer
+
+      // 스킵 희망 채팅인지
+      if (data.msg === '!스킵' || data.msg === '!skip') {
+        // 이미 내가 스킵 투표를 했는지 확인
+        if (!roomData[data.roomCode].skipCount.includes(data.socketId)) {
+          roomData[data.roomCode].skipCount.push(data.socketId);
+          data.wantSkip = true;   // 스킵을 희망하는, 정상적으로 저장됨을 알림
+
+          // 참가 인원수 반절보다 스킵 희망이 많으면 스킵 진행
+          if (roomData[data.roomCode].skipCount.length > roomData[data.roomCode].userList.length / 2 + 1) {
+            roomData[data.roomCode].isPlaying = WAITING_STATE;
+            io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
+            roomData[data.roomCode].skipCount = [];
+          }
+
+        }
+      }
+
+
+      // 정답 제출한 채팅인지
       if (roomData[data.roomCode].songList[0].answer.includes( data.msg.replace(/\s/g, '').toLowerCase() )) {
         data.isAnswer = true; 
         roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
@@ -214,7 +237,14 @@ io.on('connection', (socket) => {
     roomData[data.roomCode].isPlaying = PLAYING_STATE;
     
     roomData[data.roomCode].songList = _.cloneDeep(songData.filter((song, idx) => {
-      return (song.tags.includes(roomData[data.roomCode].songTags[0]));
+      let isHave = false;
+      roomData[data.roomCode].songTags.forEach(wantTag => {
+        if (song.tags.includes(wantTag)) {
+          isHave = true;
+          return false;
+        }
+      });
+      return isHave;
     }));
     shuffle(roomData[data.roomCode].songList);
     if (roomData[data.roomCode].songList.length > roomData[data.roomCode].maxSongNum) {
