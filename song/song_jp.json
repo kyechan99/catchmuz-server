@@ -1,0 +1,338 @@
+[
+    {
+        "name": "グッバイ宣言(굿바이선언) - v flower",
+        "code": "5Ct_tDR_Xu4",
+        "start": 0,
+        "tags": ["Vocaloid", "2020"],
+        "answer": ["グッバイ宣言", "굿바이선언", "goodbyedeclaration"]
+    },
+    {
+        "name": "花のうた(꽃의 노래) - 하나땅",
+        "code": "aNMQ7VlUtuM",
+        "start": 0,
+        "tags": ["J-pop", "Vocaloid", "2013", "하나땅"],
+        "answer": ["花のうた", "꽃의노래", "flowersong"]
+    },
+    {
+        "name": "群青(군청) - YOASOBI",
+        "code": "Y4nEEZwckuU",
+        "start": 2,
+        "tags": ["J-pop", "2021", "YOASOBI"],
+        "answer": ["群青", "군청"]
+    },
+    {
+        "name": "あの夢をなぞって(그 꿈을 덧그리며) - YOASOBI",
+        "code": "sAuEeM_6zpk",
+        "start": 0,
+        "tags": ["J-pop", "YOASOBI", "2021"],
+        "answer": ["あの夢をなぞって", "저꿈을덧그리며", "그꿈을덧그리며", "studyme"]
+    },
+    {
+        "name": "たぶん(아마도) - YOASOBI",
+        "code": "94e5lUDaGFk",
+        "start": 6,
+        "tags": ["J-pop", "YOASOBI", "2021"],
+        "answer": ["たぶん", "아마도"]
+    },
+    {
+        "name": "裸の心(벌거벗은 마음) - あいみょん",
+        "code": "CGwkO_hRo7Q",
+        "start": 5,
+        "tags": ["J-pop", "あいみょん(아이묭)", "2020"],
+        "answer": ["裸の心", "벌거벗은마음", "nakedheart"]
+    },
+    {
+        "name": "Pretender - Official髭男dism",
+        "code": "OA9eLhgHxSk",
+        "start": 0,
+        "tags": ["J-pop", "Official髭男dism", "2019"],
+        "answer": ["pretender"]
+    },
+    {
+        "name": "Universe - Official髭男dism",
+        "code": "sZzs7X8zA68",
+        "start": 30,
+        "tags": ["J-pop", "Official髭男dism", "2021"],
+        "answer": ["universe"]
+    },
+    {
+        "name": "夜に駆ける(밤을 달리다) - YOASOBI",
+        "code": "iYaaO2EZMsk",
+        "start": 0,
+        "tags": ["J-pop", "YOASOBI", "2019", "Tiktok"],
+        "answer": ["夜に駆ける", "밤을달리다"]
+    },
+    {
+        "name": "恋音と雨空(사랑의 소리와 비 오는하늘) - AAA",
+        "code": "apOelWh2vJU",
+        "start": 0,
+        "tags": ["J-pop", "AAA", "2013"],
+        "answer": ["恋音と雨空", "사랑의소리와비오는하늘 "]
+    },
+    {
+        "name": "heartbreaker - 植田真梨恵",
+        "code": "c1G7X0NfnCw",
+        "start": 0,
+        "tags": ["J-pop", "植田真梨恵(우에다 마리에)", "2020"],
+        "answer": ["heartbreaker"]
+    },
+    {
+        "name": "恋のうた(사랑의 노래) - Yunomi",
+        "code": "Q4kNDTIAdQ0",
+        "start": 0,
+        "tags": ["애니op", "Yunomi", "2020"],
+        "answer": ["恋のうた", "사랑의노래"]
+    },
+    {
+        "name": "天使にふれたよ!(천사를 만났어) - けいおん!",
+        "code": "eRMPq1-llIc",
+        "start": 0,
+        "tags": ["애니ost", "2010"],
+        "answer": ["天使にふれたよ", "천사를만났어", "thoughtcrime"]
+    },
+    {
+        "name": "夜永唄(야빙가) - 神はサイコロを振らない",
+        "code": "Nij9BiHzP7E",
+        "start": 10,
+        "tags": ["J-pop", "애니ost", "2019"],
+        "answer": ["夜永唄", "야빙가", "yonagauta"]
+    },
+    {
+        "name": "敗北の少年(패배의 소년) - PENGUIN RESEARCH",
+        "code": "w2ySuxC2SNI",
+        "start": 0,
+        "tags": ["J-pop", "록", "Vocaloid", "PENGUIN RESEARCH", "2016"],
+        "answer": ["敗北の少年", "패배의소년", "boyofdefeat"]
+    },
+    {
+        "name": "みちしるべ(이정표) - 茅原実里",
+        "code": "lOMfQqqxpII",
+        "start": 0,
+        "tags": ["애니ed", "2018", "茅原実里(치하라 미노리)"],
+        "answer": ["みちしるべ", "이정표"]
+    },
+    {
+        "name": "さくらんぼ(사쿠란보) - 大塚 愛",
+        "code": "upODO6OuOOk",
+        "start": 0,
+        "tags": ["J-pop", "大塚 愛", "2004", "Tiktok"],
+        "answer": ["さくらんぼ", "사쿠란보"]
+    },
+    {
+        "name": "愛にできることはまだあるかい(사랑이 할 수 있는 일이 아직있을까) - RADWIMPS",
+        "code": "lCHExX3NypM",
+        "start": 10,
+        "tags": ["애니ost", "RADWIMPS", "2019", "록"],
+        "answer": ["愛にできることはまだあるかい", "사랑이할수있는일이아직있을까"]
+    },
+    {
+        "name": "紅蓮華(홍련화) - LiSA",
+        "code": "CwkzK-F0Y00",
+        "start": 0,
+        "tags": ["애니op", "LiSA", "2019"],
+        "answer": ["紅蓮華", "홍련화"]
+    },
+    {
+        "name": "幸せ(행복) - back number",
+        "code": "zZQvp1A7JrE",
+        "start": 5,
+        "tags": ["애니op", "back number", "2011"],
+        "answer": ["幸せ", "행복"]
+    },
+    {
+        "name": "ただ君に晴れ(그저 네게 맑아라) - ヨルシカ",
+        "code": "-VKIqrvVOpo",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
+        "answer": ["ただ君に晴れ", "그저네게맑아라"]
+    },
+    {
+        "name": "猫(고양이) - Dish//",
+        "code": "gsT6eKsnT0M",
+        "start": 55,
+        "tags": ["J-pop", "Dish//", "2017"],
+        "answer": ["猫", "고양이"]
+    },
+    {
+        "name": "さよならメモリーズ(사요나라 메모리즈) - supercell",
+        "code": "bZSm9QIuGsA",
+        "start": 0,
+        "tags": ["J-pop", "supercell", "2013"],
+        "answer": ["さよならメモリーズ", "사요나라메모리즈"]
+    },
+    {
+        "name": "あの娘シークレット(그 아이 시크릿) - Eve",
+        "code": "sgdPlDG1-8k",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "Eve", "2017"],
+        "answer": ["あの娘シークレット", "그아이시크릿", "thatgirlsecret"]
+    },
+    {
+        "name": "くらべられっ子(비교당하는 아이) - ツユ",
+        "code": "olWvy0PiLfA",
+        "start": 0,
+        "tags":["J-pop", "ツユ(츠유)", "2019"],
+        "answer": ["くらべられっ子", "비교당하는아이"]
+    },
+    {
+      "name": "ともに(함께) - WANIMA",
+      "code": "qag4ewos4TE",
+      "start": 1,
+      "tags": [ "WANIMA", "J-pop", "2016" ],
+      "answer": [ "ともに", "토모니", "함께", "tomoni" ]
+    },
+    {
+      "name": "サクラミツツキ(벛꽃만월) - SPYAIR",
+      "code": "ZHx5FJmMbaE",
+      "start": 0,
+      "tags": [ "J-pop", "SPYAIR", "2013", "애니ost", "록" ],
+      "answer": [ "サクラミツツキ", "벚꽃만월", "sakuramitsutsuki" ]
+    },
+    {
+      "name": "メギツネ - BABYMETAL",
+      "code": "cK3NMZAUKGw",
+      "start": 0,
+      "tags": [ "J-pop", "BABYMETAL", "2014", "헤비메탈" ],
+      "answer": [ "メギツネ", "메기츠네", "암여우", "megitsune" ]
+    },
+    {
+      "name": "ギミチョコ!!(김미쵸코) - BABYMETAL",
+      "code": "WIKqgE4BwAY",
+      "start": 6,
+      "tags": [ "J-pop", "BABYMETAL", "2013", "헤비메탈" ],
+      "answer": [ "ギミチョコ!!", "gimmechocolate!!", "김미쵸코" ]
+    },
+    {
+      "name": "ロックな君とはお別れだ(Rock 한너와작별이야) - ツユ",
+      "code": "1cGQotpn8r4",
+      "start": 5,
+      "tags": [ "J-pop", "ツユ(츠유)", "2020"],
+      "answer": [ "ロックな君とはお別れだ", "록한너와작별이야", "rock한너와작별이야" ]
+    },
+    {
+      "name": "心做し(마음짓기) - 하나땅",
+      "code": "Fl3ZEiZu--s",
+      "start": 0,
+      "tags": [ "Vocaloid", "2014", "하나땅"],
+      "answer": ["心做し", "마음짓기"]
+    },
+    {
+      "name": "Polaris - Aimer",
+      "code": "2Mkv1RCj5BE",
+      "start": 0,
+      "tags": [ "J-pop", "Aimer", "2013" ],
+      "answer": ["북극성" , "polaris" ]
+    },
+    {
+      "name": "Stay Alive - Takahashi Rie",
+      "code": "GQ6o1SIH1rQ",
+      "start": 0,
+      "tags": [ "애니ost", "Takahashi Rie ", "2016" ],
+      "answer": ["살아있어줘", "stayalive" ]
+    },
+    {
+        "name": "パレード(퍼레이드) - ヨルシカ",
+        "code": "F5Dx-SdoRdQ",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
+        "answer": ["パレード", "퍼레이드", "thoughtcrime"]
+    },
+    {
+        "name": "準透明少年(준투명 소년) - ヨルシカ",
+        "code": "-wXaF_yc32s",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
+        "answer": ["準透明少年", "준투명소년", "semitransparen"]
+    },
+    {
+        "name": "シュガーソングとビターステップ(슈가송과 비터스텝) - UNISON SQUARE GARDEN",
+        "code": "P-LdR0WL5Zo",
+        "start": 0,
+        "tags": ["애니ed", "UNISON SQUARE GARDEN", "2016"],
+        "answer": ["シュガーソングとビターステップ", "슈가송과비터스텝", "sugarsongtobitterstep"]
+    },
+    {
+        "name": "ヒッチコック(히치콕) - ヨルシカ",
+        "code": "t7MBzMP4OzY",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
+        "answer": ["ヒッチコック", "히치콕", "hitchcock"]
+    },
+    {
+        "name": "ふたりごと(둘이서) - RADWIMPS",
+        "code": "U7QhdWSffvg",
+        "start": 0,
+        "tags": ["J-pop", "RADWIMPS", "2006"],
+        "answer": ["ふたりごと", "둘이서"]
+    },
+    {
+        "name": "声(목소리) - 初音ミク",
+        "code": "HA2rQS6PIyw",
+        "start": 0,
+        "tags": ["Voacloid", "初音ミク(하츠네미쿠)", "2015"],
+        "answer": ["声", "목소리", "voice"]
+    },
+    {
+        "name": "フラレガイガール(흔들리는 남녀) - Sayuri",
+        "code": "0r9sjpPBUWc",
+        "start": 0,
+        "tags": ["J-pop", "Sayuri", "2019"],
+        "answer": ["フラレガイガール", "후라레가이걸", "흔들리는남녀"]
+    },
+    {
+        "name": "抱きしめて(안아줘) - indigo la End",
+        "code": "Q2tTBKxvMB4",
+        "start": 40,
+        "tags": ["J-pop", "indigo la End", "2015"],
+        "answer": ["抱きしめて", "안아줘", "dakishimete"]
+    },
+    {
+        "name": "心に穴が空いた(마음에 구멍이 생기다) - ヨルシカ",
+        "code": "TR3JXKo4Kmw",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
+        "answer": ["心に穴が空いた", "마음에구멍이생기다", "holeintheheart"]
+    },
+    {
+        "name": "マリーゴールド(메리골드) - あいみょん",
+        "code": "BY2kSjIV8mY",
+        "start": 0,
+        "tags": ["J-pop", "あいみょん(아이묭)", "2019"],
+        "answer": ["マリーゴールド", "메리골드", "Marigold "]
+    },
+    {
+        "name": "だから僕は音楽を辞めた(그래서 나는 음악을 그만두었다) - ヨルシカ",
+        "code": "KTZ-y85Erus",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
+        "answer": ["だから僕は音楽を辞めた", "그래서나는음악을그만두었다", "Moonlight"]
+    },
+    {
+        "name": "香水(향수) - 瑛人",
+        "code": "T_6tu8MSJJs",
+        "start": 0,
+        "tags": ["J-pop", "瑛人(에이토)", "2019", "Tiktok"],
+        "answer": ["香水", "향수", "perfume"]
+    },
+    {
+        "name": "YELLOW - 神山羊",
+        "code": "1_lap6dzSUc",
+        "start": 0,
+        "tags": ["J-pop", "神山羊(카미야마 요우)", "2019"],
+        "answer": ["yellow"]
+    },
+    {
+        "name": "カワキヲアメク(목마름을 외치다) - 美波",
+        "code": "0YF8vecQWYs",
+        "start": 0,
+        "tags": ["J-pop", "美波(미나미)", "2019"],
+        "answer": ["カワキヲアメク", "목마름을외치다"]
+    },
+    {
+        "name": "春を告げる(봄을 고하다) - yama",
+        "code": "DC6JppqHkaM",
+        "start": 0,
+        "tags": ["J-pop", "yama ", "2019"],
+        "answer": ["春を告げる", "봄을고하다"]
+    }
+]
