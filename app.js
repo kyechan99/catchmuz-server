@@ -54,6 +54,27 @@ io.on('connection', (socket) => {
     }
   }
 
+  function outRoomCheck(roomCode, socketId) {
+    if (!roomData[roomCode])
+      return;
+
+    // 내가 방장이라면 방만 삭제
+    if (roomData[roomCode].userList.length <= 1) {
+      delete roomData[roomCode];
+    }
+    // 방의 일원이라면 다른 사람들에게 나갔다고 알림
+    else {
+      const idx = roomData[roomCode].userList.findIndex((item) => {
+        return item.socketId === socketId;
+      });
+
+      if (idx === -1) return;
+      roomData[roomCode].userList.splice(idx, 1);
+
+      io.to(ROOM_CODE + roomCode).emit('someone exit', { socketId: socketId });
+    }
+  }
+
   //================================
   // Room - Create
   socket.on('create room', (data) => {
@@ -82,8 +103,6 @@ io.on('connection', (socket) => {
   //================================
   // Room - Join
   socket.on('join room', (data) => {
-    console.log('JOIN ROOM', roomData[data.roomCode], data.user.socketId);
-
     // 존재하는 방인지
     if (roomData[data.roomCode] != undefined) {
       
@@ -99,7 +118,6 @@ io.on('connection', (socket) => {
           // 인원수 체크
           if (roomData[data.roomCode].userList.length + 1 > roomData[data.roomCode].maxUserNum ||
               roomData[data.roomCode].isPlaying) {
-            console.log('인원수 넘침 ' , roomData[data.roomCode].isPlaying);
             // 내가 들어가면 인원수가 넘치거나 게임중인 방에 강제로 접속했음
             socket.emit('forced exit');
             return;
@@ -118,7 +136,6 @@ io.on('connection', (socket) => {
       }
     } else {
       // error : 없는 방
-      console.log('존재하지 않는 방');
       socket.emit('forced exit');
     }
   });
@@ -128,24 +145,7 @@ io.on('connection', (socket) => {
   socket.on('exit room', (data) => {
     socket.leave(ROOM_CODE + data.roomCode);
 
-    if (!roomData[data.roomCode])
-      return;
-
-    // 인원수가 1이라면 나 혼자였던 방. 이제 내가 나갔으니 방을 삭제
-    if (roomData[data.roomCode].userList.length <= 1) {
-      delete roomData[data.roomCode];
-
-    } else {
-      const idx = roomData[data.roomCode].userList.findIndex((item) => {
-        return item.socketId === data.socketId;
-      });
-      if (idx === -1) return;
-      roomData[data.roomCode].userList.splice(idx, 1);
-
-      io.to(ROOM_CODE + data.roomCode).emit('someone exit', data);
-    }
-
-    console.log('EXIT ROOM ', roomData);
+    outRoomCheck(data.roomCode, data.socketId);
   });
 
   //================================
@@ -154,9 +154,11 @@ io.on('connection', (socket) => {
     io.emit('get room list', Object.keys(roomData).filter((key) => {
           return !roomData[key].isPlaying;
       }).reduce((obj, key, idx) => {
-          obj[idx] = { ...roomData[key] };
-          obj[idx].curUserNum = obj[idx].userList.length;
-          delete obj[idx].userList;
+          // console.log('grl', obj, key, idx);
+
+          obj[key] = { ...roomData[key] };
+          obj[key].curUserNum = obj[key].userList.length;
+          delete obj[key].userList;
           return obj;
       }, {}));
   });
@@ -167,7 +169,7 @@ io.on('connection', (socket) => {
     data.isAnswer = false;
     if (roomData[data.roomCode].isPlaying === PLAYING_STATE) {
       // Check is Answer
-      if (roomData[data.roomCode].songList[0].answer.includes( data.msg.replace(/\s/g, '') )) {
+      if (roomData[data.roomCode].songList[0].answer.includes( data.msg.replace(/\s/g, '').toLowerCase() )) {
         data.isAnswer = true; 
         roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
       }
@@ -179,8 +181,6 @@ io.on('connection', (socket) => {
   //================================
   // Room - Request Answer
   socket.on('request answer', data => {
-    console.log('REQ ANSWER SONG');
-
     roomData[data.roomCode].isPlaying = WAITING_STATE;
     io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
   });
@@ -188,8 +188,6 @@ io.on('connection', (socket) => {
   //================================
   // Room - Request Next Song
   socket.on('request next', data => {
-    console.log('REQUEST NEXT SONG');
-
     roomData[data.roomCode].isPlaying = PLAYING_STATE;
     roomData[data.roomCode].songList.shift();
     if (roomData[data.roomCode] && roomData[data.roomCode].isPlaying) {
@@ -200,16 +198,35 @@ io.on('connection', (socket) => {
   //================================
   // Game - Game Start
   socket.on('game start', (data) => {
+    if (roomData[data.roomCode].isPlaying !== READY_STATE)  // 이 상태가 아니라면 이미 게임중이 호출된 상태
+      return;
+    
     roomData[data.roomCode].isPlaying = PLAYING_STATE;
     
     roomData[data.roomCode].songList = _.cloneDeep(songData.filter((song, idx) => {
       return (song.tags.includes(roomData[data.roomCode].songTags[0]));
     }));
     shuffle(roomData[data.roomCode].songList);
+    if (roomData[data.roomCode].songList.length > roomData[data.roomCode].maxSongNum) {
+      roomData[data.roomCode].songList = roomData[data.roomCode].songList.slice(0, roomData[data.roomCode].maxSongNum);
+    }
 
     io.to(ROOM_CODE + data.roomCode).emit('game start', { songLength: roomData[data.roomCode].songList.length   });
 
     nextSong(data.roomCode);
+  });
+
+
+  //================================
+  // Disconnecting
+  socket.on('disconnecting', function() {
+    console.log("disconnect : ", socket.id);
+
+    // 속해있는 방이 있다면 처리함
+    socket.rooms.forEach((roomCode) => {
+      // 해당 방에는 ROOM_CODE 값이 들어가 있는 방이기 떄문에 그 크기만큼 짤라줌
+      outRoomCheck(roomCode.slice(ROOM_CODE.length), socket.id);
+    })
   });
 
 });
