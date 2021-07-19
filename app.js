@@ -41,8 +41,9 @@ io.on('connection', (socket) => {
   console.log("연결된 socketID : ", socket.id);
 
   // 접속하면 socketId를 저장하게함 io.to(socket.id)
-  socket.emit('my socket id', { 
-    socketId: socket.id
+  socket.emit('my socket id', {
+    socketId: socket.id,
+    server_version: 'v0.1.0'
   });
 
   function nextSong(roomCode) {
@@ -58,7 +59,7 @@ io.on('connection', (socket) => {
     if (!roomData[roomCode])
       return;
 
-    // 내가 방장이라면 방만 삭제
+    // 방에 나 혼자 였다면 방만 삭제
     if (roomData[roomCode].userList.length <= 1) {
       delete roomData[roomCode];
     }
@@ -72,6 +73,15 @@ io.on('connection', (socket) => {
       roomData[roomCode].userList.splice(idx, 1);
 
       io.to(ROOM_CODE + roomCode).emit('someone exit', { socketId: socketId });
+
+
+      // 만약 사라진 유저가 방장이라면(방장은 항상 0번) 다음 사람에게 방장 넘겨주기
+      console.log('EXIT USER : ', idx);
+      if (idx === 0) {
+        console.log(roomData[roomCode].userList[0].socketId);
+
+        io.to(roomData[roomCode].userList[0].socketId).emit('your manager', roomData[roomCode].songTags);
+      }
     }
   }
 
