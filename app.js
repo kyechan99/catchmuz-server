@@ -40,6 +40,8 @@ function shuffle(a) {
   }
 }
 
+try {
+
 io.on('connection', (socket) => {
   console.log('SERVER VERSION ', SERVER_VERSION);
   console.log("연결된 socketID : ", socket.id);
@@ -281,5 +283,9 @@ io.on('connection', (socket) => {
   });
 
 });
+
+} catch (err) {
+  console.log(err);
+}
 
 module.exports = app;
