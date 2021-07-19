@@ -36,8 +36,8 @@
     },
     {
         "name": "Dun Dun Dance - 오마이걸",
-        "code": "HzOjwL7IP_o",
-        "start": 55,
+        "code": "0l9LB_Noe2Q",
+        "start": 93,
         "tags": ["여자 아이돌", "오마이걸", "2021", "트렌드", "최신곡", "TOP100"],
         "answer": ["던던댄스", "dundundance"]
     },
@@ -106,7 +106,7 @@
     },
     {
         "name": "Cigarette - OFFONOFF",
-        "code": "b1uifHd1Zn8",
+        "code": "AamatUtxev4",
         "start": 0,
         "tags": ["힙합", "OFFONOFF", "2018", "싱잉랩"],
         "answer": ["cigarette"]
@@ -186,7 +186,7 @@
       "code": "Med2XipHJJM",
       "start": 0,
       "tags": [ "오렌지캬라멜", "여자 아이돌", "2014", "유닛", "추억의그노래" ],
-      "answer": [ "카탈레나" ]
+      "answer": [ "까탈레나" ]
     },
     {
       "name": "난감하네 - 프로젝트 락",
@@ -238,13 +238,6 @@
       "answer": [ "인연" ]
     },
     {
-      "name": "백만송이 장미 - 심수봉",
-      "code": "MPCD3dIwfdI",
-      "start": 10,
-      "tags": [ "트로트", "심수봉", "2005", "여성 가수" ],
-      "answer": [ "벡민송이장미" ]
-    },
-    {
       "name": "그건 니 생각이고 - 장기하와 얼굴들",
       "code": "h28fhU-mjDA",
       "start": 0,
@@ -263,14 +256,14 @@
       "code": "wG2lDphHVR8",
       "start": 24,
       "tags": [ "인디음악", "장기하와 얼굴들", "2009"],
-      "answer": [ "달이차오른다가자" ]
+      "answer": [ "달이차오른다가자", "달이차오른다,가자" ]
     },
     {
       "name": "풍문으로 들었소 - 장기하와 얼굴들",
       "code": "Gg8dWs5g9jg",
       "start": 0,
-      "tags": [ "영화ost", "장기하와 얼굴들", "2012"],
-      "answer": [ "풍문으로 들엇소" ]
+      "tags": [ "OST", "장기하와 얼굴들", "2012"],
+      "answer": [ "풍문으로들었소" ]
     },
     {
       "name": "우리 지금 만나 - 장기하와 얼굴들",
@@ -285,5 +278,131 @@
       "start": 0,
       "tags": [ "발라드", "엠씨더맥스", "2016"],
       "answer": [ "아스라이" ]
+    },
+    {
+        "name": "마지막 인사 - 빅뱅",
+        "code": "ScorpVvqLwo",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래"],
+        "answer": ["마지막인사"]
+    },
+    {
+        "name": "하루하루 - 빅뱅",
+        "code": "MzCbEdtNbJ0",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
+        "answer": ["하루하루, HARUHARU"]
+    },
+    {
+        "name": "거짓말 - 빅뱅",
+        "code": "2Cv3phvP8Ro",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래"],
+        "answer": ["거짓말"]
+    },
+    {
+        "name": "붉은노을 - 빅뱅",
+        "code": "oJIWY9W5WAM",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
+        "answer": ["붉은노을"]
+    },
+    {
+        "name": "링딩동 - 샤이니",
+        "code": "roughtzsCDI",
+        "start": 0,
+        "tags": ["케이팝", "샤이니", "2009", "추억의그노래"],
+        "answer": ["링딩동"]
+    },
+    {
+        "name": "누난 너무 예뻐 - 샤이니",
+        "code": "VTASffPQGhY",
+        "start": 0,
+        "tags": ["케이팝", "샤이니", "2011", "추억의그노래"],
+        "answer": ["누난너무예뻐"]
+    },
+    {
+        "name": "픽션 - 비스트",
+        "code": "ZAzWT8mRoR0",
+        "start": 0,
+        "tags": ["케이팝", "비스트", "2009", "추억의그노래"],
+        "answer": ["픽션, fiction"]
+    },
+    {
+        "name": "쇼크 - 비스트",
+        "code": "JXxGo1MvNls",
+        "start": 0,
+        "tags": ["케이팝", "비스트", "2010", "추억의그노래"],
+        "answer": ["쇼크", "shock"]
+    },
+    {
+        "name": "으르렁 - 엑소",
+        "code": "I3dezFzsNss",
+        "start": 0,
+        "tags": ["케이팝", "엑소", "2013", "추억의그노래"],
+        "answer": ["으르렁"]
+    },
+    {
+        "name": "붉은노을 - 빅뱅",
+        "code": "oJIWY9W5WAM",
+        "start": 0,
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
+        "answer": ["붉은노을"]
+    },
+    {
+        "name": "heartbeat - 2pm",
+        "code": "bKtvDv7eykg",
+        "start": 0,
+        "tags": ["케이팝", "2pm", "2009"],
+        "answer": ["하트비트", "heartbeat", "추억의그노래"]
+    },
+    {
+        "name": "밥만 잘먹더라 - 창민&이현",
+        "code": "BrR_gaatQoM",
+        "start": 0,
+        "tags": ["케이팝", "창민&이현", "2011", "추억의그노래"],
+        "answer": ["밥만잘먹더라"]
+    },
+    {
+        "name": "high high - gd&top",
+        "code": "X5XVbVnPis4",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2010"],
+        "answer": ["하이하이", "highhigh"]
+    },
+    {
+        "name": "뻑이가요 - gd&top",
+        "code": "4YAHlsLFhrk",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2016"],
+        "answer": ["뻑이가요"]
+    },
+    {
+        "name": "쩔어 - gd&top",
+        "code": "D8t8A8E_Tqc",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2015"],
+        "answer": ["쩔어"]
+    },
+    {
+        "name": "집에 가지마 - gd&top",
+        "code": "aLbkqk1u2RI",
+        "start": 0,
+        "tags": ["케이팝", "gd&top", "2008", "추억의그노래"],
+        "answer": ["집에가지마"]
+    },
+    {
+        "name": "Gee - 소녀시대",
+        "code": "bKtvDv7eykg",
+        "start": 0,
+        "tags": ["케이팝", "소녀시대", "2009", "추억의그노래"],
+        "answer": ["gee"]
+    },
+    {
+        "name": "Tell Me - 원더걸스",
+        "code": "3vVHy0XoIN4",
+        "start": 0,
+        "tags": ["케이팝", "원더걸스", "2011", "추억의그노래"],
+        "answer": ["tellme", "텔미"]
     }
 ]

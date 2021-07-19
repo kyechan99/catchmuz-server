@@ -5,6 +5,8 @@ var _ = require('lodash');
 
 const server = require('http').createServer(app);
 const songData = require('./song/song_kr.json');
+const songDataJP = require('./song/song_jp.json');
+const songDataEN = require('./song/song_en.json');
 
 const io = require("socket.io")(server, {
   cors: {
@@ -93,6 +95,7 @@ io.on('connection', (socket) => {
     roomIdx++;
     
     roomData[roomIdx] = {
+      language: data.language,
       songTags: data.tags,
       maxSongNum: data.maxSongNum,
       maxUserNum: data.maxUserNum,
@@ -191,7 +194,7 @@ io.on('connection', (socket) => {
           data.wantSkip = true;   // 스킵을 희망하는, 정상적으로 저장됨을 알림
 
           // 참가 인원수 반절보다 스킵 희망이 많으면 스킵 진행
-          if (roomData[data.roomCode].skipCount.length > roomData[data.roomCode].userList.length / 2 + 1) {
+          if (roomData[data.roomCode].skipCount.length > roomData[data.roomCode].userList.length / 2) {
             roomData[data.roomCode].isPlaying = WAITING_STATE;
             io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
             roomData[data.roomCode].skipCount = [];
@@ -228,6 +231,14 @@ io.on('connection', (socket) => {
     }
   });
 
+  function checkLanguage(lang) {
+    if (lang === 'en')
+      return songDataEN;
+    else if (lang === 'jp')
+      return songDataJP;
+    return songData;
+  }
+
   //================================
   // Game - Game Start
   socket.on('game start', (data) => {
@@ -236,7 +247,7 @@ io.on('connection', (socket) => {
     
     roomData[data.roomCode].isPlaying = PLAYING_STATE;
     
-    roomData[data.roomCode].songList = _.cloneDeep(songData.filter((song, idx) => {
+    roomData[data.roomCode].songList = _.cloneDeep(checkLanguage(roomData[data.roomCode].language).filter((song, idx) => {
       let isHave = false;
       roomData[data.roomCode].songTags.forEach(wantTag => {
         if (song.tags.includes(wantTag)) {
