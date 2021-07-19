@@ -280,6 +280,132 @@
       "answer": [ "아스라이" ]
     },
     {
+      "name": "밤새 - 카더가든",
+      "code": "lcLBV2fcad0",
+      "start": 0,
+      "tags": ["발라드", "카더가든", "2020", "Top 100"],
+      "answer": ["밤새"]
+    },
+    {
+        "name": "애월리 - 규현",
+        "code": "v_s7Vif3oDY",
+        "start": 0,
+        "tags": ["발라드", "규현", "2019", "가요"],
+        "answer": ["애월리"]
+    },
+    {
+        "name": "내 마음이 움찔했던 순간 - 규현",
+        "code": "vIPug7A8Fds",
+        "start": 0,
+        "tags": ["발라드", "규현", "2020", "TOP 100"],
+        "answer": ["내마음이움찔했던순간"]
+    },
+    {
+        "name": "밀리언조각 - 규현",
+        "code": "N_wbXDtZj6I",
+        "start": 0,
+        "tags": ["발라드", "규현", "2015", "가요"],
+        "answer": ["밀리언조각"]
+    },
+    {
+        "name": "광화문에서 - 규현",
+        "code": "GAdFpZHTh1I",
+        "start": 0,
+        "tags": ["발라드", "규현", "2016", "TOP 100"],
+        "answer": ["광화문에서"]
+    },
+    {
+        "name": "6 To 9 - 카더가든",
+        "code": "NpxLpJ04riE",
+        "start": 0,
+        "tags": ["힙합", "카더가든", "2019", "싱잉랩"],
+        "answer": ["6to9", "69", "sixtonine"]
+    },
+    {
+        "name": "영원처럼 안아줘 - 프롬",
+        "code": "JGiNio9x4dI",
+        "start": 0,
+        "tags": ["발라드", "프롬", "2018", "감성"],
+        "answer": ["영원처럼안아줘"]
+    },
+    {
+        "name": "We(Oui) - 지바노프",
+        "code": "eGbEQuk_8uk",
+        "start": 0,
+        "tags": ["힙합", "지바노프", "2019", "싱잉랩"],
+        "answer": ["we", "oui"]
+    },
+    {
+        "name": "MALIBU - 피엘",
+        "code": "E-YXcHtyn2c",
+        "start": 0,
+        "tags": ["알앤비", "PL(피엘)", "2019", "감성"],
+        "answer": ["malibu", "말리부"]
+    },
+    {
+        "name": "니가 보고싶은 밤 - 윤딴딴",
+        "code": "HCc1UvTQ1Hg",
+        "start": 0,
+        "tags": ["발라드", "윤딴딴(Yun DDanDDan)", "2019", "가요"],
+        "answer": ["니가보고싶은밤"]
+    },
+    {
+        "name": "겨울을 걷는다 - 윤딴딴",
+        "code": "G2fjG30vfYA",
+        "start": 0,
+        "tags": ["발라드", "윤딴딴(Yun DDanDDan)", "2020", "가요"],
+        "answer": ["겨울을걷는다"]
+    },
+    {
+        "name": "씨스루 - 프라이머리",
+        "code": "Na7voCrpzF0",
+        "start": 0,
+        "tags": ["힙합", "PL(Yun DDanDDan)", "2012", "추억의그노래"],
+        "answer": ["씨스루", "seethru"]
+    },
+    {
+        "name": "숙녀 - 유빈",
+        "code": "2MiQonPvlVM",
+        "start": 0,
+        "tags": ["시티팝", "유빈(Yubin)", "2018", "가요"],
+        "answer": ["숙녀", "lady"]
+    },
+    {
+        "name": "손편지 - 그_냥",
+        "code": "QPhFpe_RcIM",
+        "start": 0,
+        "tags": ["발라드", "그_냥(Just)", "2019", "감성"],
+        "answer": ["손편지", "ahandwrittenletter"]
+    },
+    {
+        "name": "봄비 - 장범준",
+        "code": "u0hEgrjqQro",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2016", "감성"],
+        "answer": ["봄비", "springrain"]
+    },
+    {
+        "name": "사랑에 빠졌죠 - 장범준",
+        "code": "nQRBLrtohxA",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2016", "감성"],
+        "answer": ["사랑에빠졌죠", "falleninlove","falleninloveonlywithyou"]
+    },
+    {
+        "name": "일산으로 - 장범준",
+        "code": "ScJ4m-qXWuw",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2019", "감성"],
+        "answer": ["일산으로"]
+    },
+    {
+        "name": "실버판테온 - 장범준",
+        "code": "BfWqUjunXXU",
+        "start": 0,
+        "tags": ["발라드", "장범준", "2020", "최신곡"],
+        "answer": ["실버판테온", "silverpantheon"]
+    },
+    {
         "name": "마지막 인사 - 빅뱅",
         "code": "ScorpVvqLwo",
         "start": 0,
