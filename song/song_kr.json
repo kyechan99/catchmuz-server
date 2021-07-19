@@ -392,150 +392,136 @@
         "answer": ["일산으로"]
     },
     {
-        "name": "실버판테온 - 장범준",
-        "code": "BfWqUjunXXU",
-        "start": 0,
-        "tags": ["발라드", "장범준", "2020", "최신곡"],
-        "answer": ["실버판테온", "silverpantheon"]
-    },
-    {
         "name": "마지막 인사 - 빅뱅",
-        "code": "ScorpVvqLwo",
+        "code": "MP0pXENQkaA",
         "start": 0,
-        "tags": ["힙합", "빅뱅", "2009", "추억의그노래"],
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래", "남자 아이돌"],
         "answer": ["마지막인사"]
     },
     {
         "name": "하루하루 - 빅뱅",
         "code": "MzCbEdtNbJ0",
         "start": 0,
-        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래", "남자 아이돌"],
         "answer": ["하루하루", "HARUHARU"]
     },
     {
         "name": "거짓말 - 빅뱅",
-        "code": "2Cv3phvP8Ro",
+        "code": "Hy0W7AqDC_c",
         "start": 0,
-        "tags": ["힙합", "빅뱅", "2009", "추억의그노래"],
+        "tags": ["힙합", "빅뱅", "2009", "추억의그노래", "남자 아이돌"],
         "answer": ["거짓말"]
-    },
-    {
-        "name": "붉은노을 - 빅뱅",
-        "code": "oJIWY9W5WAM",
-        "start": 0,
-        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
-        "answer": ["붉은노을"]
     },
     {
         "name": "링딩동 - 샤이니",
         "code": "roughtzsCDI",
         "start": 0,
-        "tags": ["케이팝", "샤이니", "2009", "추억의그노래"],
+        "tags": ["케이팝", "샤이니", "2009", "추억의그노래", "남자 아이돌"],
         "answer": ["링딩동"]
     },
     {
         "name": "누난 너무 예뻐 - 샤이니",
         "code": "VTASffPQGhY",
         "start": 0,
-        "tags": ["케이팝", "샤이니", "2011", "추억의그노래"],
+        "tags": ["케이팝", "샤이니", "2011", "추억의그노래", "남자 아이돌"],
         "answer": ["누난너무예뻐"]
     },
     {
         "name": "픽션 - 비스트",
         "code": "ZAzWT8mRoR0",
         "start": 20,
-        "tags": ["케이팝", "비스트", "2009", "추억의그노래"],
+        "tags": ["케이팝", "비스트", "2009", "추억의그노래", "남자 아이돌"],
         "answer": ["픽션", "fiction"]
     },
     {
         "name": "쇼크 - 비스트",
         "code": "JXxGo1MvNls",
         "start": 0,
-        "tags": ["케이팝", "비스트", "2010", "추억의그노래"],
+        "tags": ["케이팝", "비스트", "2010", "추억의그노래", "남자 아이돌"],
         "answer": ["쇼크", "shock"]
     },
     {
         "name": "으르렁 - 엑소",
         "code": "I3dezFzsNss",
         "start": 0,
-        "tags": ["케이팝", "엑소", "2013", "추억의그노래"],
+        "tags": ["케이팝", "엑소", "2013", "추억의그노래", "남자 아이돌"],
         "answer": ["으르렁"]
     },
     {
         "name": "붉은노을 - 빅뱅",
         "code": "oJIWY9W5WAM",
         "start": 8,
-        "tags": ["힙합", "빅뱅", "2008", "추억의그노래"],
+        "tags": ["힙합", "빅뱅", "2008", "추억의그노래", "남자 아이돌"],
         "answer": ["붉은노을"]
     },
     {
         "name": "heartbeat - 2pm",
         "code": "bKtvDv7eykg",
         "start": 0,
-        "tags": ["케이팝", "2pm", "2009", "추억의그노래"],
+        "tags": ["케이팝", "2pm", "2009", "추억의그노래", "남자 아이돌"],
         "answer": ["하트비트", "heartbeat"]
     },
     {
         "name": "밥만 잘먹더라 - 창민&이현",
         "code": "2tDmeZeNF1Y",
         "start": 0,
-        "tags": ["케이팝", "창민&이현", "2011", "추억의그노래"],
+        "tags": ["케이팝", "창민&이현", "2011", "추억의그노래", "남자 아이돌"],
         "answer": ["밥만잘먹더라"]
     },
     {
         "name": "high high - gd&top",
         "code": "X5XVbVnPis4",
         "start": 0,
-        "tags": ["케이팝", "gd&top", "2010"],
+        "tags": ["케이팝", "gd&top", "2010", "남자 아이돌"],
         "answer": ["하이하이", "highhigh"]
     },
     {
         "name": "뻑이가요 - gd&top",
         "code": "4YAHlsLFhrk",
         "start": 0,
-        "tags": ["케이팝", "gd&top", "2016"],
+        "tags": ["케이팝", "gd&top", "2016", "남자 아이돌"],
         "answer": ["뻑이가요"]
     },
     {
         "name": "쩔어 - gd&top",
         "code": "D8t8A8E_Tqc",
         "start": 15,
-        "tags": ["케이팝", "gd&top", "2015"],
+        "tags": ["케이팝", "gd&top", "2015", "남자 아이돌"],
         "answer": ["쩔어"]
     },
     {
         "name": "집에 가지마 - gd&top",
         "code": "aLbkqk1u2RI",
         "start": 0,
-        "tags": ["케이팝", "gd&top", "2008", "추억의그노래"],
+        "tags": ["케이팝", "gd&top", "2008", "추억의그노래", "남자 아이돌"],
         "answer": ["집에가지마"]
     },
     {
         "name": "Gee - 소녀시대",
         "code": "U7mPqycQ0tQ",
         "start": 17,
-        "tags": ["케이팝", "소녀시대", "2009", "추억의그노래"],
+        "tags": ["케이팝", "소녀시대", "2009", "추억의그노래", "여자 아이돌"],
         "answer": ["gee"]
     },
     {
         "name": "Tell Me - 원더걸스",
         "code": "3vVHy0XoIN4",
         "start": 20,
-        "tags": ["케이팝", "원더걸스", "2011", "추억의그노래"],
+        "tags": ["케이팝", "원더걸스", "2011", "추억의그노래", "여자 아이돌"],
         "answer": ["tellme", "텔미"]
     },
     {
         "name": "ALIEN - 이수현(LEE SUHYUN)",
         "code": "GywDFkY3z-c",
         "start": 0,
-        "tags": [ "시티팝", "악동뮤지션", "2020", "최신곡" ],
+        "tags": [ "시티팝", "악동뮤지션", "2020" ],
         "answer": [ "에일리언", "alien" ]
       },
       {
         "name": "어떻게 이별까지 사랑하겠어, 널 사랑하는거지 - 악동뮤지션",
         "code": "mZz9uYdj_v4",
         "start": 0,
-        "tags": [ "발라드", "악동뮤지션", "2019", "최신곡" ],
+        "tags": [ "발라드", "악동뮤지션", "2019" ],
         "answer": [ "어떻게이별까지사랑하겠어널사랑하는거지", "어떻게이별까지사랑하겠어,널사랑하는거지" ]
       },
       {
@@ -546,136 +532,129 @@
         "answer": [ "dinosaur", "다이노소어" ]
       },
       {
-        "name": "Closer - 오마이걸",
-        "code": "8Jam5-buj6k",
-        "start": 19,
-        "tags": [ "여자아이돌", "오마이걸", "2015" ],
-        "answer": [ "closer" ]
-      },
-      {
-        "name": "BUNGEE - 오마이걸",
-        "code": "60K1Zf1IGcM",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2019" ],
-        "answer": [ "bungee", "번지" ]
-      },
-      {
-        "name": "다섯번째 계절 - 오마이걸",
-        "code": "klMIr6Cw3mQ",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2019" ],
-        "answer": [ "다섯번째계절" ]
-      },
-      {
-        "name": "살짝 설렜어 - 오마이걸",
-        "code": "Swwnu3ohpM",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2020" ],
-        "answer": [ "살짝설렜어", "nonstop" ]
-      },
-      {
-        "name": "한 발짝 두 발짝 - 오마이걸",
-        "code": "FNMGq8t9kHY",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2016" ],
-        "answer": [ "한발짝두발짝" ]
-      },
-      {
-        "name": "미제 (Case No.L5VE) - 오마이걸",
-        "code": "qtp4YFmzzDs",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2019" ],
-        "answer": [ "미제" ]
-      },
-      {
-        "name": "심해(마음이라는 바다) - 오마이걸",
-        "code": "qcNAlIA9jVE",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2019" ],
-        "answer": [ "심해" ]
-      },
-      {
-        "name": "숲의아이 - 유아(오마이걸)",
-        "code": "mWjJ3btIg",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2020" ],
-        "answer": [ "숲의아이" ]
-      },
-      {
-        "name": "자각몽(Abracadabra) - 유아(오마이걸)",
-        "code": "moat6ihl2p0",
-        "start": 0,
-        "tags": [ "여자아이돌", "오마이걸", "2020" ],
-        "answer": [ "자각몽", "abracadabra" ]
-      },
-      {
         "name": "LATATA - (여자)아이들",
         "code": "9mQk7Evt6Vs",
         "start": 0,
-        "tags": [ "여자아이돌", "(여자)아이들", "2018" ],
+        "tags": [ "여자 아이돌", "(여자)아이들", "2018" ],
         "answer": [ "라타타", "latata" ]
       },
       {
         "name": "DUMDi DUMDi - (여자)아이들",
         "code": "JIKqqPQ-0Ow",
         "start": 0,
-        "tags": [ "여자아이돌", "(여자)아이들", "2020" ],
+        "tags": [ "여자 아이돌", "(여자)아이들", "2020", "여자 아이돌" ],
         "answer": [ "dumdidumdi", "덤디덤디" ]
       },
       {
         "name": "Alcohol-Free - 트와이스",
         "code": "pUAjfHGsyK4",
         "start": 0,
-        "tags": [ "여자아이돌", "2021", "트와이스" ],
-        "answer": [ "알코올프리", "alcoholfree", "alcohol-free", "TOP100" ]
+        "tags": [ "여자 아이돌", "2021", "트와이스", "여자 아이돌", "TOP100" ],
+        "answer": [ "알코올프리", "alcoholfree", "alcohol-free" ]
       },
       {
         "name": "ASAP - STAYC(스테이씨)",
         "code": "XKH20-WCHpY",
         "start": 0,
-        "tags": [ "여자아이돌", "2021", "STAYC(스테이씨)", "TOP100" ],
-        "answer": [ "ASAP", "에이쎕" ]
+        "tags": [ "여자 아이돌", "2021", "STAYC(스테이씨)", "TOP100" ],
+        "answer": [ "asap", "에이쎕" ]
       },
       {
         "name": "Lovesick Girls - 블랙핑크",
         "code": "qt81CWVHgjI",
         "start": 0,
-        "tags": [ "여자아이돌", "2020", "블랙핑크" ],
+        "tags": [ "여자 아이돌", "2020", "블랙핑크", "여자 아이돌" ],
         "answer": [ "lovesickgirls" ]
       },
       {
         "name": "운전만해 - 브레이브걸스",
         "code": "4HjcypoChfQ",
         "start": 0,
-        "tags": [ "여자아이돌", "2021", "브레이브걸스", "TOP100" ],
-        "answer": [ "운전만해" ]
-      },
-      {
-        "name": "운전만해 - 브레이브걸스",
-        "code": "4HjcypoChfQ",
-        "start": 0,
-        "tags": [ "여자아이돌", "2021", "브레이브걸스", "TOP100" ],
+        "tags": [ "여자 아이돌", "2021", "브레이브걸스", "TOP100", "여자 아이돌" ],
         "answer": [ "운전만해" ]
       },
       {
         "name": "여행 - 볼빨간사춘기",
         "code": "xRbPAVnqtcs",
         "start": 0,
-        "tags": [ "2018", "볼빨간사춘기" ],
+        "tags": [ "2018", "볼빨간사춘기", "포크" ],
         "answer": [ "여행", "trip" ]
       },
       {
-        "name": "좋다고말해 - 볼빨간사춘기",
+        "name": "좋다고 말해 - 볼빨간사춘기",
         "code": "y5MAgMVwfFs",
         "start": 0,
-        "tags": [ "2016", "볼빨간사춘기" ],
+        "tags": [ "2016", "볼빨간사춘기", "포크" ],
         "answer": [ "좋다고말해" ]
       },
       {
         "name": "나의 사춘기에게 - 볼빨간사춘기",
         "code": "0tkgGcnRNTE",
         "start": 0,
-        "tags": [ "2017", "볼빨간사춘기" ],
+        "tags": [ "2017", "볼빨간사춘기", "포크" ],
         "answer": [ "나의사춘기에게" ]
-      }
+      },
+      {
+        "name": "Closer - 오마이걸",
+        "code": "8Jam5-buj6k",
+        "start": 19,
+        "tags": [ "여자 아이돌", "오마이걸", "2015" ],
+        "answer": [ "closer" ]
+    },
+    {
+        "name": "BUNGEE - 오마이걸",
+        "code": "60K1Zf1IGcM",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "bungee", "번지" ]
+    },
+    {
+        "name": "다섯번째 계절 - 오마이걸",
+        "code": "klMIr6Cw3mQ",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "다섯번째계절" ]
+    },
+    {
+        "name": "살짝 설렜어 - 오마이걸",
+        "code": "_Swwnu3ohpM",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "살짝설렜어", "nonstop" ]
+    },
+    {
+        "name": "한 발짝 두 발짝 - 오마이걸",
+        "code": "FNMGq8t9kHY",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2016" ],
+        "answer": [ "한발짝두발짝" ]
+    },
+    {
+        "name": "미제 (Case No.L5VE) - 오마이걸",
+        "code": "qtp4YFmzzDs",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "미제" ]
+    },
+    {
+        "name": "심해(마음이라는 바다) - 오마이걸",
+        "code": "qcNAlIA9jVE",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
+        "answer": [ "심해" ]
+    },
+    {
+        "name": "숲의아이 - 유아(오마이걸)",
+        "code": "3-mWjJ3btIg",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "숲의아이" ]
+    },
+    {
+        "name": "자각몽(Abracadabra) - 유아(오마이걸)",
+        "code": "moat6ihl2p0",
+        "start": 0,
+        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
+        "answer": [ "자각몽", "abracadabra" ]
+    }
 ]
