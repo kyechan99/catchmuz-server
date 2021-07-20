@@ -27,7 +27,7 @@ server.listen(port, () => {
 
 
 const ROOM_CODE = 'ROOM_';
-const SERVER_VERSION = 'v0.1.0';
+const SERVER_VERSION = 'v0.1.1';
 const READY_STATE = 0;
 const PLAYING_STATE = 1;
 const WAITING_STATE = 2;
