@@ -8,9 +8,15 @@ const songData = require('./song/song_kr.json');
 const songDataJP = require('./song/song_jp.json');
 const songDataEN = require('./song/song_en.json');
 
+// const io = require("socket.io")(server, {
+//   cors: {
+//     origin: "http://localhost:3000",
+//     methods: ["GET", "POST"],
+//   },
+// });
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
@@ -214,9 +220,9 @@ io.on('connection', (socket) => {
             if (roomData[data.roomCode].skipCount.length > roomData[data.roomCode].userList.length / 2) {
               roomData[data.roomCode].isPlaying = WAITING_STATE;
               io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
+              roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
               roomData[data.roomCode].skipCount = [];
             }
-
           }
         }
 
