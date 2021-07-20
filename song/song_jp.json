@@ -133,13 +133,6 @@
         "answer": ["紅蓮華", "홍련화"]
     },
     {
-        "name": "幸せ(행복) - back number",
-        "code": "zZQvp1A7JrE",
-        "start": 5,
-        "tags": ["애니op", "back number", "2011"],
-        "answer": ["幸せ", "행복"]
-    },
-    {
         "name": "ただ君に晴れ(그저 네게 맑아라) - ヨルシカ",
         "code": "-VKIqrvVOpo",
         "start": 0,
@@ -218,7 +211,7 @@
     },
     {
       "name": "Polaris - Aimer",
-      "code": "2Mkv1RCj5BE",
+      "code": "NJkQzZOdOsI",
       "start": 0,
       "tags": [ "J-pop", "Aimer", "2013" ],
       "answer": ["북극성" , "polaris" ]
@@ -285,13 +278,6 @@
         "start": 40,
         "tags": ["J-pop", "indigo la End", "2015"],
         "answer": ["抱きしめて", "안아줘", "dakishimete"]
-    },
-    {
-        "name": "心に穴が空いた(마음에 구멍이 생기다) - ヨルシカ",
-        "code": "TR3JXKo4Kmw",
-        "start": 0,
-        "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
-        "answer": ["心に穴が空いた", "마음에구멍이생기다", "holeintheheart"]
     },
     {
         "name": "マリーゴールド(메리골드) - あいみょん",
