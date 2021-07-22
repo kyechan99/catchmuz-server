@@ -8,9 +8,15 @@ const songData = require('./song/song_kr.json');
 const songDataJP = require('./song/song_jp.json');
 const songDataEN = require('./song/song_en.json');
 
+// const io = require("socket.io")(server, {
+//   cors: {
+//     origin: "http://localhost:3000",
+//     methods: ["GET", "POST"],
+//   },
+// });
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
@@ -21,7 +27,7 @@ server.listen(port, () => {
 
 
 const ROOM_CODE = 'ROOM_';
-const SERVER_VERSION = 'v0.1.0';
+const SERVER_VERSION = 'v1.0.0';
 const READY_STATE = 0;
 const PLAYING_STATE = 1;
 const WAITING_STATE = 2;
@@ -211,12 +217,12 @@ io.on('connection', (socket) => {
             data.wantSkip = true;   // 스킵을 희망하는, 정상적으로 저장됨을 알림
 
             // 참가 인원수 반절보다 스킵 희망이 많으면 스킵 진행
-            if (roomData[data.roomCode].skipCount.length > roomData[data.roomCode].userList.length / 2) {
+            if (roomData[data.roomCode].skipCount.length >= Math.ceil((roomData[data.roomCode].userList.length + 1) / 2)) {
               roomData[data.roomCode].isPlaying = WAITING_STATE;
               io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
+              roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
               roomData[data.roomCode].skipCount = [];
             }
-
           }
         }
 
