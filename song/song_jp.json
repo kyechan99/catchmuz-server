@@ -133,7 +133,14 @@
         "answer": ["紅蓮華", "홍련화"]
     },
     {
-        "name": "ただ君に晴れ(그저 네게 맑아라) - ヨルシカ",
+        "name": "幸せ(행복) - back number",
+        "code": "zZQvp1A7JrE",
+        "start": 5,
+        "tags": ["애니op", "back number", "2011"],
+        "answer": ["幸せ", "행복"]
+    },
+    {
+        "name": "ただ君に晴れ(그저 네게 맑아라) - ヨルシカ(요루시카)",
         "code": "-VKIqrvVOpo",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
@@ -224,14 +231,14 @@
       "answer": ["살아있어줘", "stayalive" ]
     },
     {
-        "name": "パレード(퍼레이드) - ヨルシカ",
+        "name": "パレード(퍼레이드) - ヨルシカ(요루시카)",
         "code": "F5Dx-SdoRdQ",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
         "answer": ["パレード", "퍼레이드", "thoughtcrime"]
     },
     {
-        "name": "準透明少年(준투명 소년) - ヨルシカ",
+        "name": "準透明少年(준투명 소년) - ヨルシカ(요루시카)",
         "code": "-wXaF_yc32s",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
@@ -245,7 +252,7 @@
         "answer": ["シュガーソングとビターステップ", "슈가송과비터스텝", "sugarsongtobitterstep"]
     },
     {
-        "name": "ヒッチコック(히치콕) - ヨルシカ",
+        "name": "ヒッチコック(히치콕) - ヨルシカ(요루시카)",
         "code": "t7MBzMP4OzY",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2018"],
@@ -262,7 +269,7 @@
         "name": "声(목소리) - 初音ミク",
         "code": "HA2rQS6PIyw",
         "start": 0,
-        "tags": ["Voacloid", "初音ミク(하츠네미쿠)", "2015"],
+        "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "2015"],
         "answer": ["声", "목소리", "voice"]
     },
     {
@@ -280,6 +287,13 @@
         "answer": ["抱きしめて", "안아줘", "dakishimete"]
     },
     {
+        "name": "心に穴が空いた(마음에 구멍이 생기다) - ヨルシカ(요루시카)",
+        "code": "TR3JXKo4Kmw",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
+        "answer": ["心に穴が空いた", "마음에구멍이생기다", "holeintheheart"]
+    },
+    {
         "name": "マリーゴールド(메리골드) - あいみょん",
         "code": "BY2kSjIV8mY",
         "start": 0,
@@ -287,7 +301,7 @@
         "answer": ["マリーゴールド", "메리골드", "Marigold "]
     },
     {
-        "name": "だから僕は音楽を辞めた(그래서 나는 음악을 그만두었다) - ヨルシカ",
+        "name": "だから僕は音楽を辞めた(그래서 나는 음악을 그만두었다) - ヨルシカ(요루시카)",
         "code": "KTZ-y85Erus",
         "start": 0,
         "tags": ["J-pop", "ヨルシカ(요루시카)", "2019"],
@@ -318,7 +332,196 @@
         "name": "春を告げる(봄을 고하다) - yama",
         "code": "DC6JppqHkaM",
         "start": 0,
-        "tags": ["J-pop", "yama ", "2019"],
+        "tags": ["J-pop", "yama", "2019"],
         "answer": ["春を告げる", "봄을고하다"]
+    },
+    {
+        "name": "心象カスケード(심상 캐스케이드) - v flower",
+        "code": "ZVbvfJZnlRU",
+        "start": 0,
+        "tags": ["Vocaloid", "2019"],
+        "answer": ["心象カスケード", "심상캐스케이드"]
+    },
+    {
+        "name": "春に落ちて(봄에 빠져) - kano",
+        "code": "-J4PaiGgEPA",
+        "start": 0,
+        "tags": ["애니ed", "kano ", "2018"],
+        "answer": ["春に落ちて", "봄에빠져"]
+    },
+    {
+        "name": "アスノヨゾラ哨戒班(내일의 밤하늘 초계반) - Orangestar",
+        "code": "Za1wb_OADto",
+        "start": 0,
+        "tags": ["Vocaloid", "2014"],
+        "answer": ["アスノヨゾラ哨戒班", "내일의밤하늘초계반"]
+    },
+    {
+        "name": "それがあなたの幸せとしても(그것이 당신의 행복이라 할지라도) - 巡音ルカ(메구리네 루카)",
+        "code": "6lGdo1P79dA",
+        "start": 0,
+        "tags": ["Vocaloid", "2014"],
+        "answer": ["それがあなたの幸せとしても", "그것이당신의행복이라할지라도", "evenifyouassumethatitisyourhappiness"]
+    },
+    {
+        "name": "My Dearest - supercell",
+        "code": "DjUtmbZt8zc",
+        "start": 8,
+        "tags": ["애니op", "supercell ", "2013"],
+        "answer": ["mydearest"]
+    },
+    {
+        "name": "ルカルカ★ナイトフィーバー(루카루카 나이트 피버) - 巡音ルカ(메구리네 루카)",
+        "code": "PwDD8CjFS4k",
+        "start": 0,
+        "tags": ["Vocaloid", "2009"],
+        "answer": ["ルカルカナイトフィーバー", "루카루카나이트피버"]
+    },
+    {
+        "name": "Rain - 秦基博(하타 모토히로)",
+        "code": "fhjJ7WiPrJs",
+        "start": 0,
+        "tags": ["애니ost", "2019"],
+        "answer": ["Rain"]
+    },
+    {
+        "name": "金木犀(금목서) - くじら",
+        "code": "Baw-cAvS5xc",
+        "start": 0,
+        "tags": ["J-pop", "2019"],
+        "answer": ["金木犀", "금목서"]
+    },
+    {
+        "name": "桜(벚꽃) - FUNKY MONKEY BABYS",
+        "code": "3lPAAypyfrM",
+        "start": 0,
+        "tags": ["J-pop", "FUNKY MONKEY BABYS", "2015"],
+        "answer": ["桜", "벚꽃", "사쿠라", "sakura"]
+    },
+    {
+        "name": "ウォルピスカーター(진흙 속에 피다) - ウォルピスカーター(윌피스카터)",
+        "code": "40dJS_LC6S8",
+        "start": 0,
+        "tags": ["J-pop", "2018", "ウォルピスカーター(윌피스카터)"],
+        "answer": ["ウォルピスカーター", "진흙속에피다"]
+    },
+    {
+        "name": "打上花火(쏘아올린 불꽃) - DAOKO × 米津玄師",
+        "code": "-tKVN2mAKRI",
+        "start": 0,
+        "tags": ["애니ost", "FUNKY MONKEY BABYS", "2017"],
+        "answer": ["打上花火", "쏘아올린불꽃"]
+    },
+    {
+        "name": "わたしの声(나의 목소리) - 水瀬 いのり(미나세 이노리)",
+        "code": "IlhSTMC6x0w",
+        "start": 0,
+        "tags": ["애니ost", "2015"],
+        "answer": ["わたしの声", "나의목소리"]
+    },
+    {
+        "name": "ルラ(루라) - Sayuri",
+        "code": "QOOgMyIGtrQ",
+        "start": 0,
+        "tags": ["J-pop", "Sayuri", "2017"],
+        "answer": ["ルラ", "루라"]
+    },
+    {
+        "name": "ひろ(히로) - amazarashi",
+        "code": "QjKkba5npbY",
+        "start": 22,
+        "tags": ["J-pop", "amazarashi", "2014"],
+        "answer": ["ひろ", "히로"]
+    },
+    {
+        "name": "オワラセナイト(끝내지 않으면) - フレデリック(프레데릭)",
+        "code": "Q3sigAJXG1E",
+        "start": 0,
+        "tags": ["J-pop", "フレデリック(프레데릭)", "2016"],
+        "answer": ["オワラセナイト", "끝내지않으면"]
+    },
+    {
+        "name": "カタオモイ(짝사랑) - Aimer",
+        "code": "kxs9Su_mbpU",
+        "start": 0,
+        "tags": ["J-pop", "Aimer", "2016"],
+        "answer": ["カタオモイ", "짝사랑"]
+    },
+    {
+        "name": "Missing You - 西野カナ(니시노 카나)",
+        "code": "MQphO31MLwk",
+        "start": 12,
+        "tags": ["J-pop", "西野カナ(니시노 카나)", "2015"],
+        "answer": ["missingyou"]
+    },
+    {
+        "name": "命に嫌われている(생명에게 미움받고 있어) - 初音ミク(하츠네미쿠)",
+        "code": "0HYm60Mjm0k",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "2017"],
+        "answer": ["命に嫌われている", "생명에게미움받고있어"]
+    },
+    {
+        "name": "猛独が襲う(거센 외로움이 덮쳐와) - 初音ミク(하츠네미쿠)",
+        "code": "KhV57_EH3AA",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "2017"],
+        "answer": ["猛独が襲う", "거센외로움이덮쳐와"]
+    },
+    {
+        "name": "別の人の彼女になったよ(다른 사람의 여자친구가 됐어) - wacci",
+        "code": "MK-5SOBPPtg",
+        "start": 50,
+        "tags": ["J-pop", "wacci", "2018"],
+        "answer": ["別の人の彼女になったよ", "다른사람의여자친구가됐어"]
+    },
+    {
+        "name": "海の幽霊(바다의 유령) - 米津玄師(요네즈 켄시)",
+        "code": "1s84rIhPuhk",
+        "start": 0,
+        "tags": ["J-pop", "米津玄師(요네즈 켄시)", "2019"],
+        "answer": ["命に嫌われている", "바다의유령", "spiritsofthesea"]
+    },
+    {
+        "name": "glow - 初音ミク(하츠네미쿠)",
+        "code": "FV2yqrbNqk4",
+        "start": 0,
+        "tags": ["Vocaloid", "初音ミク(하츠네미쿠)", "2010"],
+        "answer": ["glow"]
+    },
+    {
+        "name": "ラストロマンス(라스트 로멘스) - 東京女子流(도쿄여자류)",
+        "code": "DdS3oN0E5uk",
+        "start": 0,
+        "tags": ["J-pop", "東京女子流(도쿄여자류)", "2017"],
+        "answer": ["ラストロマンス", "라스트로멘스"]
+    },
+    {
+        "name": "恋するフォーチュンクッキー(사랑하는 포춘쿠키) - AKB48",
+        "code": "dFf4AgBNR1E",
+        "start": 0,
+        "tags": ["J-pop", "AKB48", "2013"],
+        "answer": ["恋するフォーチュンクッキー", "사랑하는 포춘쿠키"]
+    },
+    {
+        "name": "アウトサイダー(아웃사이더) - Eve",
+        "code": "GMPjNA_fCj4",
+        "start": 0,
+        "tags": ["J-pop", "Eve", "2018"],
+        "answer": ["アウトサイダー", "아웃사이더", "outsider"]
+    },
+    {
+        "name": "ーキョーゲットー(도쿄 게토) - Eve",
+        "code": "PvzBWFGEz8M",
+        "start": 0,
+        "tags": ["J-pop", "Eve", "2019"],
+        "answer": ["ーキョーゲットー", "도쿄게토"]
+    },
+    {
+        "name": "言って(말해줘) - ヨルシカ(요루시카)",
+        "code": "F64yFFnZfkI",
+        "start": 0,
+        "tags": ["J-pop", "ヨルシカ(요루시카)", "2017"],
+        "answer": ["言って", "말해줘", "sayit"]
     }
 ]
