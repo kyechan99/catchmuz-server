@@ -27,7 +27,7 @@ server.listen(port, () => {
 
 
 const ROOM_CODE = 'ROOM_';
-const SERVER_VERSION = 'v1.0.0';
+const SERVER_VERSION = 'v1.0.1';
 const READY_STATE = 0;
 const PLAYING_STATE = 1;
 const WAITING_STATE = 2;
@@ -59,6 +59,7 @@ io.on('connection', (socket) => {
   function nextSong(roomCode) {
     try {
       if (roomData[roomCode].songList.length > 0) {
+        roomData[roomCode].skipCount.clear();
         io.to(ROOM_CODE + roomCode).emit('next song', roomData[roomCode].songList[0]);
       } else {
         roomData[roomCode].isPlaying = READY_STATE;
@@ -111,6 +112,7 @@ io.on('connection', (socket) => {
     roomData[roomIdx] = {
       language: data.language,
       songTags: data.tags,
+      unWanted: data.unTags,
       maxSongNum: data.maxSongNum,
       maxUserNum: data.maxUserNum,
       userList: [
@@ -122,7 +124,7 @@ io.on('connection', (socket) => {
         }
       ],
       songList: [],
-      skipCount: [],
+      skipCount: new Set(),
       isPlaying: READY_STATE
     };
 
@@ -183,6 +185,13 @@ io.on('connection', (socket) => {
   });
 
   //================================
+  // Room - Forced Exit
+  socket.on('forced exit', (data) => {
+    io.to(data.target).emit('forced exit');
+  });
+
+
+  //================================
   // Room - Get List
   socket.on('get room list', () => {
     try {
@@ -212,16 +221,16 @@ io.on('connection', (socket) => {
         // 스킵 희망 채팅인지
         if (data.msg === '!스킵' || data.msg === '!skip') {
           // 이미 내가 스킵 투표를 했는지 확인
-          if (!roomData[data.roomCode].skipCount.includes(data.socketId)) {
-            roomData[data.roomCode].skipCount.push(data.socketId);
+          if (!roomData[data.roomCode].skipCount.has(data.socketId)) {
+            roomData[data.roomCode].skipCount.add(data.socketId);
             data.wantSkip = true;   // 스킵을 희망하는, 정상적으로 저장됨을 알림
 
             // 참가 인원수 반절보다 스킵 희망이 많으면 스킵 진행
-            if (roomData[data.roomCode].skipCount.length >= Math.ceil((roomData[data.roomCode].userList.length + 1) / 2)) {
+            if (roomData[data.roomCode].skipCount.size >= Math.ceil((roomData[data.roomCode].userList.length + 1) / 2)) {
               roomData[data.roomCode].isPlaying = WAITING_STATE;
               io.to(ROOM_CODE + data.roomCode).emit('answer song', roomData[data.roomCode].songList[0]);
               roomData[data.roomCode].songList[0].answer = [];    // 더 이상 정답 제출자가 없도록
-              roomData[data.roomCode].skipCount = [];
+              roomData[data.roomCode].skipCount.clear();
             }
           }
         }
@@ -290,6 +299,21 @@ io.on('connection', (socket) => {
     try {
       roomData[data.roomCode].songList = _.cloneDeep(checkLanguage(roomData[data.roomCode].language).filter((song, idx) => {
         let isHave = false;
+
+        // 원하지 않는 태그가 있는지 확인
+        roomData[data.roomCode].unWanted.forEach(unWantTag => {
+          if (song.tags.includes(unWantTag)) {
+            isHave = true;
+            return false;
+          }
+        });
+        
+        // 원하지 않는 태그가 있었기 때문에 해당 곡은 버림
+        if (isHave) {
+          return false;
+        }
+
+        // 원하는 태그가 있는지 확인 있다면 해당 곡을 추가
         roomData[data.roomCode].songTags.forEach(wantTag => {
           if (song.tags.includes(wantTag)) {
             isHave = true;
