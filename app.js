@@ -28,9 +28,10 @@ server.listen(port, () => {
 
 const ROOM_CODE = 'ROOM_';
 const SERVER_VERSION = 'v1.0.1';
-const READY_STATE = 0;
-const PLAYING_STATE = 1;
-const WAITING_STATE = 2;
+const READY_STATE = 0;      // 대기 방 상태
+const STARTING_STATE = 1;   // 게임 시작 중인 상태
+const PLAYING_STATE = 2;    // 게임 중 상태
+const WAITING_STATE = 3;    // 게임 중에 다음 노래 대기중 상태 (게임 중엔 PLAYING_STATE 와 번갈아 감)
 
 let roomData = {};
 let roomIdx = 0;
@@ -270,8 +271,10 @@ io.on('connection', (socket) => {
       return;
       
     try {
+      if (roomData[data.roomCode].isPlaying !== STARTING_STATE) {
+        roomData[data.roomCode].songList.shift();
+      }
       roomData[data.roomCode].isPlaying = PLAYING_STATE;
-      roomData[data.roomCode].songList.shift();
       if (roomData[data.roomCode] && roomData[data.roomCode].isPlaying) {
         nextSong(data.roomCode);
       }
@@ -294,7 +297,7 @@ io.on('connection', (socket) => {
     if (roomData[data.roomCode].isPlaying !== READY_STATE)  // 이 상태가 아니라면 이미 게임중이 호출된 상태
       return;
     
-    roomData[data.roomCode].isPlaying = PLAYING_STATE;
+    roomData[data.roomCode].isPlaying = STARTING_STATE;
     
     try {
       roomData[data.roomCode].songList = _.cloneDeep(checkLanguage(roomData[data.roomCode].language).filter((song, idx) => {
@@ -329,7 +332,8 @@ io.on('connection', (socket) => {
 
       io.to(ROOM_CODE + data.roomCode).emit('game start', { songLength: roomData[data.roomCode].songList.length   });
 
-      nextSong(data.roomCode);
+      // 클라에서 5초후 게임 시작 할 수 있게 변경됨
+      // nextSong(data.roomCode);
     } catch (e) {
       console.log('game start', e);
     }
