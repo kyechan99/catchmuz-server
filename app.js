@@ -27,7 +27,7 @@ server.listen(port, () => {
 
 
 const ROOM_CODE = 'ROOM_';
-const SERVER_VERSION = 'v1.0.1';
+const SERVER_VERSION = 'v1.0.2';
 const READY_STATE = 0;      // 대기 방 상태
 const STARTING_STATE = 1;   // 게임 시작 중인 상태
 const PLAYING_STATE = 2;    // 게임 중 상태

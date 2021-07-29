@@ -248,35 +248,35 @@
       "name": "그건 니 생각이고 - 장기하와 얼굴들",
       "code": "h28fhU-mjDA",
       "start": 0,
-      "tags": [ "인디", "장기하와 얼굴들", "2018"],
+      "tags": [ "들어줬음해","인디", "장기하와 얼굴들", "2018"],
       "answer": [ "그건니생각이고" ]
     },
     {
       "name": "싸구려 커피 - 장기하와 얼굴들",
       "code": "cb0V4Dc1nnE",
       "start": 21,
-      "tags": [ "록", "장기하와 얼굴들", "2008"],
+      "tags": [ "장기하와 얼굴들", "2008"],
       "answer": [ "싸구려커피" ]
     },
     {
       "name": "달이 차오른다, 가자 - 장기하와 얼굴들",
       "code": "wG2lDphHVR8",
       "start": 24,
-      "tags": [ "인디", "장기하와 얼굴들", "2009"],
+      "tags": [ "들어줬음해","인디", "장기하와 얼굴들", "2009"],
       "answer": [ "달이차오른다가자", "달이차오른다,가자" ]
     },
     {
       "name": "풍문으로 들었소 - 장기하와 얼굴들",
       "code": "Gg8dWs5g9jg",
       "start": 0,
-      "tags": [ "OST", "장기하와 얼굴들", "2012"],
+      "tags": [ "들어줬음해","OST", "장기하와 얼굴들", "2012"],
       "answer": [ "풍문으로들었소" ]
     },
     {
       "name": "우리 지금 만나 - 장기하와 얼굴들",
       "code": "2lEWCF7ZkFk",
       "start": 49,
-      "tags": [ "랩", "장기하와 얼굴들", "2009"],
+      "tags": [ "들어줬음해", "장기하와 얼굴들", "2009"],
       "answer": [ "우리지금만나" ]
     },
     {
@@ -657,34 +657,6 @@
         "tags": [ "여자 아이돌", "TOP100", "2021", "브레이브걸스", "케이팝" ],
         "answer": [ "롤린" ]
       },
-      {
-        "name": "Closer - 오마이걸",
-        "code": "8Jam5-buj6k",
-        "start": 19,
-        "tags": [ "여자 아이돌", "오마이걸", "2015" ],
-        "answer": [ "closer" ]
-    },
-    {
-        "name": "다섯번째 계절 - 오마이걸",
-        "code": "klMIr6Cw3mQ",
-        "start": 0,
-        "tags": [ "여자 아이돌", "오마이걸", "2019" ],
-        "answer": [ "다섯번째계절" ]
-    },
-    {
-        "name": "숲의아이 - 유아(오마이걸)",
-        "code": "3-mWjJ3btIg",
-        "start": 0,
-        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
-        "answer": [ "숲의아이" ]
-    },
-    {
-        "name": "자각몽(Abracadabra) - 유아(오마이걸)",
-        "code": "moat6ihl2p0",
-        "start": 0,
-        "tags": [ "여자 아이돌", "오마이걸", "2020" ],
-        "answer": [ "자각몽", "abracadabra" ]
-    },
     {
         "name": "Be OK - 유성은(Feat 배치기)",
         "code": "F1s-skFJgbA",
@@ -809,7 +781,7 @@
         "code": "JmM04_OgajU",
         "start": 65,
         "tags": [ "2012", "추억의그노래", "소녀시대", "여자 아이돌" ],
-        "answer": [ "twinkle", "트윈클" ]
+        "answer": [ "twinkle", "트윈클", "트윙클" ]
     },
     {
         "name": "I GOT A BOY - 소녀시대",
@@ -1579,7 +1551,7 @@
         "code": "aiHSVQy9xN8",
         "start": 0,
         "tags": [ "2018", "레드벨벳", "여자 아이돌", "가요" ],
-        "answer": [ "powerup" ]
+        "answer": [ "powerup", "파워업" ]
     },
     {
         "name": "음파음파 - 레드벨벳",
@@ -1635,7 +1607,7 @@
         "code": "ubKxhmstNWg",
         "start": 0,
         "tags": [ "2020", "아이즈원", "여자 아이돌", "가요" ],
-        "answer": [ "socurious" ]
+        "answer": [ "socurious", "쏘큐리어스" ]
     },
     {
         "name": "Pick Me - PRODUCE 101",
@@ -1691,7 +1663,7 @@
         "code": "8dVjSvLzD1I",
         "start": 0,
         "tags": [ "2014", "추억의그노래", "에이핑크", "여자 아이돌" ],
-        "answer": [ "luv" ]
+        "answer": [ "luv", "럽" ]
     },
     {
         "name": "Remember - 에이핑크",
@@ -1859,7 +1831,7 @@
       "code": "dXcNuRkNWpo",
       "start": 0,
       "tags": [ "여자 아이돌", "2018", "트와이스", "가요", "TOP100" ],
-      "answer": [ "댄스더나잇어웨이", "dancethenightaway" ]
+      "answer": [ "댄스더나잇어웨이", "dancethenightaway", "댄스더나이트어웨이" ]
     },
     {
       "name": "Fancy - 트와이스",
@@ -2811,7 +2783,7 @@
       "code": "uwwxXEXvB4g",
       "start": 17,
       "tags": [ "2018", "발라드", "남성 가수", "노래방", "하은" ],
-      "answer": [ "하은" ]
+      "answer": [ "신용재" ]
   },
   {
       "name": "가수가 된 이유 - 신용재",
@@ -2928,7 +2900,7 @@
   {
       "name": "Boys And Girls - 지코",
       "code": "UsaJsymfuWU",
-      "start": 0,
+      "start": 5,
       "tags": [ "남성 가수", "랩", "힙합", "지코", "2015" ],
       "answer": [ "boysandgirls", "보이스앤걸스" ]
   },
@@ -3627,7 +3599,7 @@
   },
   {
       "name": "어떻게 지내 - 오반",
-      "code": "jBAdBd_hd-8",
+      "code": "rVXeArOQIs4",
       "start": 20,
       "tags": ["힙합", "싱잉랩", "오반", "2020"],
       "answer": ["어떻게지내"]
@@ -3785,13 +3757,6 @@
       "start": 0,
       "tags": ["힙합", "랩", "2020", "호미들"],
       "answer": ["사이렌", "siren"]
-  },
-  {
-      "name": "눈 - 김호준, 릴타치",
-      "code": "-ZZ90fD86ok",
-      "start": 0,
-      "tags": ["힙합", "랩", "2019", "릴타치", "김호준"],
-      "answer": ["눈"]
   },
   {
       "name": "눈 - 김호준, 릴타치",
