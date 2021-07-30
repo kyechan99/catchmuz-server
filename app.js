@@ -48,8 +48,9 @@ function shuffle(a) {
 }
 
 io.on('connection', (socket) => {
-  console.log('SERVER VERSION ', SERVER_VERSION);
-  console.log("연결된 socketID : ", socket.id);
+  // console.log('SERVER VERSION ', SERVER_VERSION);
+  // console.log("연결된 socketID : ", socket.id);
+  // console.log('현재 ', io.engine.clientsCount);
 
   // 접속하면 socketId를 저장하게함 io.to(socket.id)
   socket.emit('my socket id', {
@@ -196,16 +197,15 @@ io.on('connection', (socket) => {
   // Room - Get List
   socket.on('get room list', () => {
     try {
-      io.emit('get room list', Object.keys(roomData).filter((key) => {
+      io.emit('get room list',  { roomList: Object.keys(roomData).filter((key) => {
             return !roomData[key].isPlaying;
         }).reduce((obj, key, idx) => {
-            // console.log('grl', obj, key, idx);
-
             obj[key] = { ...roomData[key] };
             obj[key].curUserNum = obj[key].userList.length;
             delete obj[key].userList;
+
             return obj;
-        }, {}));
+        }, {}), clientsCount: io.engine.clientsCount });
     } catch (e) {
       console.log('get room list', e);
     }
