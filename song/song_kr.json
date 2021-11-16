@@ -595,13 +595,6 @@
         "answer": [ "uhoh" ]
       },
       {
-        "name": "Senorita - (여자)아이들",
-        "code": "33Js5FPEeKA",
-        "start": 0,
-        "tags": [ "여자 아이돌", "(여자)아이들", "2019", "케이팝" ],
-        "answer": [ "세뇨리따", "senorita" ]
-      },
-      {
         "name": "LION - (여자)아이들",
         "code": "zrtfbw11WNc",
         "start": 0,
@@ -799,7 +792,7 @@
     },
     {
         "name": "U & I - 에일리",
-        "code": "gx3yY8YpGYQ",
+        "code": "WFqGVan-s1E",
         "start": 0,
         "tags": [ "2013", "추억의그노래", "에일리" ],
         "answer": [ "uni", "u&i", "유앤아이" ]
@@ -2108,8 +2101,8 @@
     },
     {
         "name": "Truly I Love You - 고갱",
-        "code": "y_8-ZFKGdEE",
-        "start": 20,
+        "code": "8Vr-ytTClc0",
+        "start": 27,
         "tags": ["들어줬음해", "인디", "고갱", "2018", "감성"],
         "answer": ["trulyiloveyou"]
     },
@@ -2297,7 +2290,7 @@
     },
     {
         "name": "breathe - miss A",
-        "code": "Lt1G5Mu9wkw",
+        "code": "16sfLHXAASU",
         "start": 0,
         "tags": [ "2010", "추억의그노래", "miss A", "여자 아이돌" ],
         "answer": [ "breathe" ]
@@ -3068,7 +3061,7 @@
     {
       "name": "열대야 - 여자친구",
       "code": "7gcc__ASPMg",
-      "start": 0,
+      "start": 5,
       "tags": [ "여자 아이돌", "2019", "여자친구", "가요" ],
       "answer": [ "열대야" ]
     },
@@ -3207,7 +3200,7 @@
     },
     {
         "name": "그때 그 아인 - 김필",
-        "code": "bRBn5EY505E",
+        "code": "mAjsF4UTg8g",
         "start": 0,
         "tags": [ "2019", "김필", "OST", "감성", "남성 가수" ],
         "answer": [ "그때그아인" ]
@@ -3750,13 +3743,6 @@
         "start": 53,
         "tags": ["2018", "걸그룹", "케이팝", "여자 아이돌"],
         "answer": ["예쁜게죄"]
-    },
-    {
-        "name": "몽환의 숲 - 키네틱 플로우",
-        "code": "qp8gfkhG2SU",
-        "start": 0,
-        "tags": ["2008", "힙합", "케이팝", "남성 가수"],
-        "answer": ["몽환의숲"]
     },
     {
         "name": "사랑했나봐 - 윤도현",
