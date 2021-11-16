@@ -1785,179 +1785,186 @@
         "answer": [ "촌스럽게왜이래" ]
     },
     {
-      "name": "Alcohol-Free - 트와이스",
-      "code": "pUAjfHGsyK4",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2021", "트와이스", "가요", "TOP100", "최신곡", "트렌드" ],
-      "answer": [ "알코올프리", "alcoholfree", "alcohol-free" ]
+        "name": "Alcohol-Free - 트와이스",
+        "code": "pUAjfHGsyK4",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2021", "트와이스", "가요", "TOP100", "최신곡", "트렌드" ],
+        "answer": [ "알코올프리", "alcoholfree", "alcohol-free" ]
+    },  
+    {
+        "name": "Dance the night away - 트와이스",
+        "code": "dXcNuRkNWpo",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2018", "트와이스", "가요", "TOP100" ],
+        "answer": [ "댄스더나잇어웨이", "dancethenightaway", "댄스더나이트어웨이" ]
     },
     {
-      "name": "Dance the night away - 트와이스",
-      "code": "dXcNuRkNWpo",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2018", "트와이스", "가요", "TOP100" ],
-      "answer": [ "댄스더나잇어웨이", "dancethenightaway", "댄스더나이트어웨이" ]
+        "name": "Fancy - 트와이스",
+        "code": "kOHB85vDuow",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2019", "트와이스", "가요" ],
+        "answer": [ "fancy", "팬시", "펜시" ]
     },
     {
-      "name": "Fancy - 트와이스",
-      "code": "kOHB85vDuow",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2019", "트와이스", "가요" ],
-      "answer": [ "fancy", "팬시", "펜시" ]
+        "name": "YES OR YES - 트와이스",
+        "code": "WLpdKBscm4s",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2018", "트와이스", "가요" ],
+        "answer": [ "yesoryes", "예스오예스", "예스오얼예스" ]
     },
     {
-      "name": "YES OR YES - 트와이스",
-      "code": "WLpdKBscm4s",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2018", "트와이스", "가요" ],
-      "answer": [ "yesoryes", "예스오예스", "예스오얼예스" ]
+        "name": "TT - 트와이스",
+        "code": "J9b7gveF_tQ",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2016", "트와이스", "가요" ],
+        "answer": [ "tt", "티티" ]
     },
     {
-      "name": "TT - 트와이스",
-      "code": "J9b7gveF_tQ",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2016", "트와이스", "가요" ],
-      "answer": [ "tt", "티티" ]
+        "name": "HEART SHAKER - 트와이스",
+        "code": "cCSd_gSXuBA",
+        "start": 98,
+        "tags": [ "여자 아이돌", "2017", "트와이스", "가요" ],
+        "answer": [ "heartshaker", "하트쉐이커" ]
     },
     {
-      "name": "LIKEY - 트와이스",
-      "code": "Dqn65yZYswI",
-      "start": 116,
-      "tags": [ "여자 아이돌", "2017", "트와이스", "가요" ],
-      "answer": [ "likey", "라이키" ]
+        "name": "LIKEY - 트와이스",
+        "code": "Dqn65yZYswI",
+        "start": 116,
+        "tags": [ "여자 아이돌", "2017", "트와이스", "가요" ],
+        "answer": [ "likey", "라이키" ]
     },
     {
-      "name": "OOH-AHH하게 - 트와이스",
-      "code": "0rtV5esQT6I",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2015", "트와이스", "가요" ],
-      "answer": [ "우아하게", "oohahh하게", "ooh-ahh하게" ]
+        "name": "OOH-AHH하게 - 트와이스",
+        "code": "0rtV5esQT6I",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2015", "트와이스", "가요" ],
+        "answer": [ "우아하게", "oohahh하게", "ooh-ahh하게" ]
     },
     {
-      "name": "여행 - 볼빨간사춘기",
-      "code": "xRbPAVnqtcs",
-      "start": 0,
-      "tags": [ "2018", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "여행", "trip" ]
+        "name": "여행 - 볼빨간사춘기",
+        "code": "xRbPAVnqtcs",
+        "start": 0,
+        "tags": [ "2018", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "여행", "trip" ]
     },
     {
-      "name": "나의 사춘기에게 - 볼빨간사춘기",
-      "code": "0tkgGcnRNTE",
-      "start": 0,
-      "tags": [ "2017", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "나의사춘기에게" ]
+        "name": "나의 사춘기에게 - 볼빨간사춘기",
+        "code": "0tkgGcnRNTE",
+        "start": 0,
+        "tags": [ "2017", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "나의사춘기에게" ]
     },
     {
-      "name": "나만, 봄 - 볼빨간사춘기",
-      "code": "3nxbVGl-yzE",
-      "start": 0,
-      "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "나만봄", "나만,봄" ]
+        "name": "나만, 봄 - 볼빨간사춘기",
+        "code": "3nxbVGl-yzE",
+        "start": 0,
+        "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "나만봄", "나만,봄" ]
     },
     {
-      "name": "우주를 줄게 - 볼빨간사춘기",
-      "code": "9U8uA702xrE",
-      "start": 2,
-      "tags": [ "2016", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "우주를줄게" ]
+        "name": "우주를 줄게 - 볼빨간사춘기",
+        "code": "9U8uA702xrE",
+        "start": 2,
+        "tags": [ "2016", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "우주를줄게" ]
     },
     {
-      "name": "썸 탈거야 - 볼빨간사춘기",
-      "code": "hZmoMyFXDoI",
-      "start": 0,
-      "tags": [ "2017", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "썸탈거야" ]
+        "name": "썸 탈거야 - 볼빨간사춘기",
+        "code": "hZmoMyFXDoI",
+        "start": 0,
+        "tags": [ "2017", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "썸탈거야" ]
     },
     {
-      "name": "별 보러 갈래? - 볼빨간사춘기",
-      "code": "8n9wklIG9qU",
-      "start": 1,
-      "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "별보러갈래", "별보러갈래?" ]
+        "name": "별 보러 갈래? - 볼빨간사춘기",
+        "code": "8n9wklIG9qU",
+        "start": 1,
+        "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "별보러갈래", "별보러갈래?" ]
     },
     {
-      "name": "Blue - 볼빨간사춘기",
-      "code": "nDBK2k0FwB8",
-      "start": 0,
-      "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "blue", "블루" ]
+        "name": "Blue - 볼빨간사춘기",
+        "code": "nDBK2k0FwB8",
+        "start": 0,
+        "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "blue", "블루" ]
     },
     {
-      "name": "워커홀릭 - 볼빨간사춘기",
-      "code": "5EOIPQx4NPg",
-      "start": 0,
-      "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "워커홀릭", "workaholic" ]
+        "name": "워커홀릭 - 볼빨간사춘기",
+        "code": "5EOIPQx4NPg",
+        "start": 0,
+        "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "워커홀릭", "workaholic" ]
     },
     {
-      "name": "MERMAID - 볼빨간사춘기",
-      "code": "abVxZTNkcsw",
-      "start": 42,
-      "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
-      "answer": [ "mermaid", "머메이드" ]
+        "name": "MERMAID - 볼빨간사춘기",
+        "code": "abVxZTNkcsw",
+        "start": 42,
+        "tags": [ "2019", "볼빨간사춘기", "여성 가수", "인디", "가요" ],
+        "answer": [ "mermaid", "머메이드" ]
     },
     {
-      "name": "안 되나요 - 휘성",
-      "code": "3b7pcH2Ub50",
-      "start": 177,
-      "tags": [ "2002", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "안되나요" ]
+        "name": "안 되나요 - 휘성",
+        "code": "3b7pcH2Ub50",
+        "start": 177,
+        "tags": [ "2002", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "안되나요" ]
     },
     {
-      "name": "일년이면 - 휘성",
-      "code": "uNSVqpEVHh8",
-      "start": 177,
-      "tags": [ "2002", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "일년이면", "1년이면" ]
+        "name": "일년이면 - 휘성",
+        "code": "uNSVqpEVHh8",
+        "start": 177,
+        "tags": [ "2002", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "일년이면", "1년이면" ]
     },
     {
-      "name": "사랑.. 그 몹쓸병 - 휘성",
-      "code": "xB0q_-QvPIg",
-      "start": 14,
-      "tags": [ "2009", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "사랑그몹쓸병", "사랑..그몹쓸병" ]
+        "name": "사랑.. 그 몹쓸병 - 휘성",
+        "code": "xB0q_-QvPIg",
+        "start": 14,
+        "tags": [ "2009", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "사랑그몹쓸병", "사랑..그몹쓸병" ]
     },
     {
-      "name": "결혼까지 생각했어 - 휘성",
-      "code": "BRcNqVpqtXw",
-      "start": 0,
-      "tags": [ "2010", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "결혼까지생각했어" ]
+        "name": "결혼까지 생각했어 - 휘성",
+        "code": "BRcNqVpqtXw",
+        "start": 0,
+        "tags": [ "2010", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "결혼까지생각했어" ]
     },
     {
-      "name": "가슴 시린 이야기 - 휘성",
-      "code": "r-IFaVVdSq8",
-      "start": 0,
-      "tags": [ "2011", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "가슴시린이야기" ]
+        "name": "가슴 시린 이야기 - 휘성",
+        "code": "r-IFaVVdSq8",
+        "start": 0,
+        "tags": [ "2011", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "가슴시린이야기" ]
     },
     {
-      "name": "Night and Day - 휘성",
-      "code": "eV1KawA_5Q0",
-      "start": 0,
-      "tags": [ "2014", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "nightandday", "나잇앤데이" ]
+        "name": "Night and Day - 휘성",
+        "code": "eV1KawA_5Q0",
+        "start": 0,
+        "tags": [ "2014", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "nightandday", "나잇앤데이" ]
     },
     {
-      "name": "사랑은 맛있다 - 휘성",
-      "code": "TPFkV8PKVhU",
-      "start": 0,
-      "tags": [ "2007", "휘성", "남성 가수", "추억의그노래", "가요" ],
-      "answer": [ "사랑은맛있다" ]
+        "name": "사랑은 맛있다 - 휘성",
+        "code": "TPFkV8PKVhU",
+        "start": 0,
+        "tags": [ "2007", "휘성", "남성 가수", "추억의그노래", "가요" ],
+        "answer": [ "사랑은맛있다" ]
     },
     {
-      "name": "1월부터 6월까지 - 015B (Feat. 윤종신)",
-      "code": "2V1oEnrp0iM",
-      "start": 0,
-      "tags": ["들어줬음해", "발라드", "윤종신", "2015"],
-      "answer": ["1월부터6월까지"]
+        "name": "1월부터 6월까지 - 015B (Feat. 윤종신)",
+        "code": "2V1oEnrp0iM",
+        "start": 0,
+        "tags": ["들어줬음해", "발라드", "윤종신", "2015"],
+        "answer": ["1월부터6월까지"]
     },
     {
-      "name": "별을 담은 시 - 마크툽",
-      "code": "QlAFlgmMmAU",
-      "start": 15,
-      "tags": ["발라드", "이라온", "2020", "트렌드"],
-      "answer": ["별을담은시"]
+        "name": "별을 담은 시 - 마크툽",
+        "code": "QlAFlgmMmAU",
+        "start": 15,
+        "tags": ["발라드", "이라온", "2020", "트렌드"],
+        "answer": ["별을담은시"]
     },
     {
         "name": "Marry Me - 마크툽, 구윤회",
@@ -2014,6 +2021,20 @@
         "start": 0,
         "tags": ["발라드", "버즈", "2005", "노래방", "추억의그노래"],
         "answer": ["가시"]
+    },
+    {
+        "name": "나에게로 떠나는 여행 - 버즈",
+        "code": "fqdgHKMqUp0",
+        "start": 0,
+        "tags": ["발라드", "버즈", "2005", "노래방", "추억의그노래"],
+        "answer": ["나에게로떠나는여행"]
+    },
+    {
+        "name": "활주 - 버즈",
+        "code": "vhVlEp46fKE",
+        "start": 0,
+        "tags": ["발라드", "버즈", "2006", "노래방", "추억의그노래"],
+        "answer": ["활주"]
     },
     {
         "name": "남자를 몰라 - 버즈",
@@ -2324,228 +2345,228 @@
         "answer": [ "위아래", "up&down", "upanddown", "upndown" ]
     },
     {
-      "name": "Lovesick Girls - 블랙핑크",
-      "code": "qt81CWVHgjI",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2020", "블랙핑크", "케이팝", "TOP100" ],
-      "answer": [ "lovesickgirls", "럽씩걸스", "럽식걸스" ]
+        "name": "Lovesick Girls - 블랙핑크",
+        "code": "qt81CWVHgjI",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2020", "블랙핑크", "케이팝", "TOP100" ],
+        "answer": [ "lovesickgirls", "럽씩걸스", "럽식걸스" ]
     },
     {
-      "name": "마지막처럼 - 블랙핑크",
-      "code": "OYiH3t5tZgo",
-      "start": 1,
-      "tags": [ "여자 아이돌", "2017", "블랙핑크", "케이팝" ],
-      "answer": [ "마지막처럼" ]
+        "name": "마지막처럼 - 블랙핑크",
+        "code": "OYiH3t5tZgo",
+        "start": 1,
+        "tags": [ "여자 아이돌", "2017", "블랙핑크", "케이팝" ],
+        "answer": [ "마지막처럼" ]
     },
     {
-      "name": "How you like that - 블랙핑크",
-      "code": "1R6PDeZLThE",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2020", "블랙핑크", "케이팝" ],
-      "answer": [ "howyoulikethat", "하우유라잌뎃", "하우유라이크뎃" ]
+        "name": "How you like that - 블랙핑크",
+        "code": "1R6PDeZLThE",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2020", "블랙핑크", "케이팝" ],
+        "answer": [ "howyoulikethat", "하우유라잌뎃", "하우유라이크뎃" ]
     },
     {
-      "name": "Kill this love - 블랙핑크",
-      "code": "2S24-y0Ij3Y",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2019", "블랙핑크", "케이팝" ],
-      "answer": [ "killthislove", "킬디스러브", "킬디스럽" ]
+        "name": "Kill this love - 블랙핑크",
+        "code": "2S24-y0Ij3Y",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2019", "블랙핑크", "케이팝" ],
+        "answer": [ "killthislove", "킬디스러브", "킬디스럽" ]
     },
     {
-      "name": "DDU-DU DDU-DU - 블랙핑크",
-      "code": "RMc9qFrCqno",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2018", "블랙핑크", "케이팝" ],
-      "answer": [ "뚜두뚜두", "ddududdudu" ]
+        "name": "DDU-DU DDU-DU - 블랙핑크",
+        "code": "RMc9qFrCqno",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2018", "블랙핑크", "케이팝" ],
+        "answer": [ "뚜두뚜두", "ddududdudu" ]
     },
     {
-      "name": "붐바야 - 블랙핑크",
-      "code": "PjRxsQ3mQkM",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2016", "블랙핑크", "케이팝" ],
-      "answer": [ "붐바야", "boombayah" ]
+        "name": "붐바야 - 블랙핑크",
+        "code": "PjRxsQ3mQkM",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2016", "블랙핑크", "케이팝" ],
+        "answer": [ "붐바야", "boombayah" ]
     },
     {
-      "name": "Don't know what to do - 블랙핑크",
-      "code": "ccI9xvR2Ja0",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2019", "블랙핑크", "케이팝" ],
-      "answer": [ "dontknowwhattodo", "don'tknowwhattodo", "돈노왓투두" ]
+        "name": "Don't know what to do - 블랙핑크",
+        "code": "ccI9xvR2Ja0",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2019", "블랙핑크", "케이팝" ],
+        "answer": [ "dontknowwhattodo", "don'tknowwhattodo", "돈노왓투두" ]
     },
     {
-      "name": "SOLO(솔로) - 블랙핑크",
-      "code": "POMeKxVc8N8",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2018", "블랙핑크", "케이팝" ],
-      "answer": [ "솔로", "solo" ]
+        "name": "SOLO(솔로) - 블랙핑크",
+        "code": "POMeKxVc8N8",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2018", "블랙핑크", "케이팝" ],
+        "answer": [ "솔로", "solo" ]
     },
     {
-      "name": "LALALILALA - 에이프릴",
-      "code": "McA0rfqeP-o",
-      "start": 16,
-      "tags": [ "여자 아이돌", "2020", "에이프릴", "케이팝" ],
-      "answer": [ "lalalilala", "라라라라라" ]
+        "name": "LALALILALA - 에이프릴",
+        "code": "McA0rfqeP-o",
+        "start": 16,
+        "tags": [ "여자 아이돌", "2020", "에이프릴", "케이팝" ],
+        "answer": [ "lalalilala", "라라라라라" ]
     },
     {
-      "name": "Now or Never - 에이프릴",
-      "code": "XD10BRjssnc",
-      "start": 16,
-      "tags": [ "여자 아이돌", "2020", "에이프릴", "케이팝" ],
-      "answer": [ "nowornever", "나우오어네버" ]
+        "name": "Now or Never - 에이프릴",
+        "code": "XD10BRjssnc",
+        "start": 16,
+        "tags": [ "여자 아이돌", "2020", "에이프릴", "케이팝" ],
+        "answer": [ "nowornever", "나우오어네버" ]
     },
     {
-      "name": "Oh! My Mistake(예쁜 게 죄) - 에이프릴",
-      "code": "ilVHipJe52Y",
-      "start": 0,
-      "tags": [ "여자 아이돌", "2018", "에이프릴", "케이팝" ],
-      "answer": [ "예쁜게죄", "ohmymistake", "oh!mymistake" ]
+        "name": "Oh! My Mistake(예쁜 게 죄) - 에이프릴",
+        "code": "ilVHipJe52Y",
+        "start": 0,
+        "tags": [ "여자 아이돌", "2018", "에이프릴", "케이팝" ],
+        "answer": [ "예쁜게죄", "ohmymistake", "oh!mymistake" ]
     },
     {
-      "name": "옥탑방 - 엔플라잉",
-      "code": "VpaUh_BGqE0",
-      "start": 0,
-      "tags": [ "남자 아이돌", "2019", "엔플라잉", "케이팝" ],
-      "answer": [ "옥탑방", "rooftop" ]
+        "name": "옥탑방 - 엔플라잉",
+        "code": "VpaUh_BGqE0",
+        "start": 0,
+        "tags": [ "남자 아이돌", "2019", "엔플라잉", "케이팝" ],
+        "answer": [ "옥탑방", "rooftop" ]
     },
     {
-      "name": "사계 - 태연",
-      "code": "5haSQXYoVwg",
-      "start": 0,
-      "tags": [ "여성 가수", "2019", "태연", "가요", "발라드" ],
-      "answer": [ "사계" ]
+        "name": "사계 - 태연",
+        "code": "5haSQXYoVwg",
+        "start": 0,
+        "tags": [ "여성 가수", "2019", "태연", "가요", "발라드" ],
+        "answer": [ "사계" ]
     },
     {
-      "name": "벌써 12시 - 청하",
-      "code": "Nnc1BIjTXpE",
-      "start": 0,
-      "tags": [ "여성 가수", "2019", "청하", "가요", "케이팝" ],
-      "answer": [ "벌써12시" ]
+        "name": "벌써 12시 - 청하",
+        "code": "Nnc1BIjTXpE",
+        "start": 0,
+        "tags": [ "여성 가수", "2019", "청하", "가요", "케이팝" ],
+        "answer": [ "벌써12시" ]
     },
     {
-      "name": "Snapping - 청하",
-      "code": "9PZp0t5xrhc",
-      "start": 0,
-      "tags": [ "여성 가수", "2019", "청하", "가요", "케이팝" ],
-      "answer": [ "snapping", "스내핑", "스네핑" ]
+        "name": "Snapping - 청하",
+        "code": "9PZp0t5xrhc",
+        "start": 0,
+        "tags": [ "여성 가수", "2019", "청하", "가요", "케이팝" ],
+        "answer": [ "snapping", "스내핑", "스네핑" ]
     },
     {
-      "name": "Stay Tonight - 청하",
-      "code": "OsOAxdvNvBc",
-      "start": 0,
-      "tags": [ "여성 가수", "2020", "청하", "가요", "케이팝" ],
-      "answer": [ "staytonight", "스테이투나잇" ]
+        "name": "Stay Tonight - 청하",
+        "code": "OsOAxdvNvBc",
+        "start": 0,
+        "tags": [ "여성 가수", "2020", "청하", "가요", "케이팝" ],
+        "answer": [ "staytonight", "스테이투나잇" ]
     },
     {
-      "name": "Roller Coaster - 청하",
-      "code": "CsgH_0y6gkE",
-      "start": 0,
-      "tags": [ "여성 가수", "2018", "청하", "가요", "케이팝" ],
-      "answer": [ "롤러코스터", "rollercoaster" ]
+        "name": "Roller Coaster - 청하",
+        "code": "CsgH_0y6gkE",
+        "start": 0,
+        "tags": [ "여성 가수", "2018", "청하", "가요", "케이팝" ],
+        "answer": [ "롤러코스터", "rollercoaster" ]
     },
     {
-      "name": "Why Don't You Know - 청하",
-      "code": "eK6Uf2gq-F4",
-      "start": 0,
-      "tags": [ "여성 가수", "2017", "청하", "가요", "케이팝" ],
-      "answer": [ "whydontyouknow", "whydon'tyouknow", "와이돈유노우", "와이돈트유노우", "와이돈유노" ]
+        "name": "Why Don't You Know - 청하",
+        "code": "eK6Uf2gq-F4",
+        "start": 0,
+        "tags": [ "여성 가수", "2017", "청하", "가요", "케이팝" ],
+        "answer": [ "whydontyouknow", "whydon'tyouknow", "와이돈유노우", "와이돈트유노우", "와이돈유노" ]
     },
     {
-      "name": "MILLIONS - WINNER",
-      "code": "BUzrqZpSemk",
-      "start": 10,
-      "tags": [ "남자 아이돌", "2018", "WINNER", "가요", "케이팝" ],
-      "answer": [ "millions", "밀리언스" ]
+        "name": "MILLIONS - WINNER",
+        "code": "BUzrqZpSemk",
+        "start": 10,
+        "tags": [ "남자 아이돌", "2018", "WINNER", "가요", "케이팝" ],
+        "answer": [ "millions", "밀리언스" ]
     },
     {
-      "name": "기억해줘요 내 모든 날과 그때를 - 거미",
-      "code": "OJ8nt2XV4TQ",
-      "start": 0,
-      "tags": [ "거미", "2019", "여성 가수", "발라드", "OST" ],
-      "answer": [ "기억해줘요내모든날과그때를" ]
+        "name": "기억해줘요 내 모든 날과 그때를 - 거미",
+        "code": "OJ8nt2XV4TQ",
+        "start": 0,
+        "tags": [ "거미", "2019", "여성 가수", "발라드", "OST" ],
+        "answer": [ "기억해줘요내모든날과그때를" ]
     },
     {
-      "name": "그떄가 좋았어 - 케이시",
-      "code": "p5iu1V30myk",
-      "start": 0,
-      "tags": [ "케이시", "2019", "여성 가수", "발라드" ],
-      "answer": [ "그때가좋았어" ]
+        "name": "그떄가 좋았어 - 케이시",
+        "code": "p5iu1V30myk",
+        "start": 0,
+        "tags": [ "케이시", "2019", "여성 가수", "발라드" ],
+        "answer": [ "그때가좋았어" ]
     },
     {
-      "name": "술이 문제야 - 장혜진 X 윤민수",
-      "code": "Imoay0Yohu4",
-      "start": 0,
-      "tags": [ "발라드", "2019", "윤민수" ],
-      "answer": [ "술이문제야" ]
+        "name": "술이 문제야 - 장혜진 X 윤민수",
+        "code": "Imoay0Yohu4",
+        "start": 0,
+        "tags": [ "발라드", "2019", "윤민수" ],
+        "answer": [ "술이문제야" ]
     },
     {
-      "name": "사랑을 했다 - iKON",
-      "code": "OErpxYtm3_o",
-      "start": 0,
-      "tags": [ "iKON", "2018", "남자 아이돌", "케이팝", "가요" ],
-      "answer": [ "사랑을했다" ]
+        "name": "사랑을 했다 - iKON",
+        "code": "OErpxYtm3_o",
+        "start": 0,
+        "tags": [ "iKON", "2018", "남자 아이돌", "케이팝", "가요" ],
+        "answer": [ "사랑을했다" ]
     },
     {
-      "name": "비행운 - 문문",
-      "code": "dkdoawhm0i4",
-      "start": 0,
-      "tags": [ "2018", "남성 가수", "문문", "가요" ],
-      "answer": [ "비행운" ]
+        "name": "비행운 - 문문",
+        "code": "dkdoawhm0i4",
+        "start": 0,
+        "tags": [ "2018", "남성 가수", "문문", "가요" ],
+        "answer": [ "비행운" ]
     },
     {
-      "name": "그날처럼 - 장덕철",
-      "code": "EfhIA6s7hHI",
-      "start": 0,
-      "tags": [ "2018", "남성 가수", "장덕철", "발라드", "노래방" ],
-      "answer": [ "그날처럼" ]
+        "name": "그날처럼 - 장덕철",
+        "code": "EfhIA6s7hHI",
+        "start": 0,
+        "tags": [ "2018", "남성 가수", "장덕철", "발라드", "노래방" ],
+        "answer": [ "그날처럼" ]
     },
     {
-      "name": "너 없인 안 된다 - 비투비",
-      "code": "7W7RQqH4r2w",
-      "start": 19,
-      "tags": [ "2018", "남성 가수", "비투비", "가요" ],
-      "answer": [ "너없인안된다" ]
+        "name": "너 없인 안 된다 - 비투비",
+        "code": "7W7RQqH4r2w",
+        "start": 19,
+        "tags": [ "2018", "남성 가수", "비투비", "가요" ],
+        "answer": [ "너없인안된다" ]
     },
     {
-      "name": "너를 만나 - 폴킴",
-      "code": "-CSCP7_HLjs",
-      "start": 59,
-      "tags": [ "2018", "남성 가수", "비투비", "가요" ],
-      "answer": [ "너를만나" ]
+        "name": "너를 만나 - 폴킴",
+        "code": "-CSCP7_HLjs",
+        "start": 59,
+        "tags": [ "2018", "남성 가수", "비투비", "가요" ],
+        "answer": [ "너를만나" ]
     },
     {
-      "name": "BLUE MOON - 효린X창모",
-      "code": "syb8w0qBv9k",
-      "start": 0,
-      "tags": [ "2017", "효린", "창모", "가요" ],
-      "answer": [ "블루문", "bluemoon" ]
+        "name": "BLUE MOON - 효린X창모",
+        "code": "syb8w0qBv9k",
+        "start": 0,
+        "tags": [ "2017", "효린", "창모", "가요" ],
+        "answer": [ "블루문", "bluemoon" ]
     },
     {
-      "name": "FINE - 태연",
-      "code": "4v3jOVI0d24",
-      "start": 0,
-      "tags": [ "2017", "여성 가수", "태연", "가요" ],
-      "answer": [ "fine", "파인" ]
+        "name": "FINE - 태연",
+        "code": "4v3jOVI0d24",
+        "start": 0,
+        "tags": [ "2017", "여성 가수", "태연", "가요" ],
+        "answer": [ "fine", "파인" ]
     },
     {
-      "name": "비도 오고 그래서 - 헤이즈 (Feat. 신용재)",
-      "code": "gdRofipJKLE",
-      "start": 26,
-      "tags": [ "2017", "여성 가수", "헤이즈", "신용재", "가요" ],
-      "answer": [ "비도오고그래서" ]
+        "name": "비도 오고 그래서 - 헤이즈 (Feat. 신용재)",
+        "code": "gdRofipJKLE",
+        "start": 26,
+        "tags": [ "2017", "여성 가수", "헤이즈", "신용재", "가요" ],
+        "answer": [ "비도오고그래서" ]
     },
     {
-      "name": "얼굴 찌푸리지 말아요 - 하이라이트",
-      "code": "1kcwvcbO8MI",
-      "start": 13,
-      "tags": [ "2017", "남자 아이돌", "하이라이트", "케이팝", "가요" ],
-      "answer": [ "얼굴찌푸리지말아요", "얼굴찌뿌리지말아요" ]
+        "name": "얼굴 찌푸리지 말아요 - 하이라이트",
+        "code": "1kcwvcbO8MI",
+        "start": 13,
+        "tags": [ "2017", "남자 아이돌", "하이라이트", "케이팝", "가요" ],
+        "answer": [ "얼굴찌푸리지말아요", "얼굴찌뿌리지말아요" ]
     },
     {
-      "name": "매일 듣는 노래 - 황치열",
-      "code": "5_aS-y4GpeY",
-      "start": 0,
-      "tags": [ "2017", "남성 가수", "황치열", "가요", "발라드", "노래방" ],
-      "answer": [ "매일듣는노래"  ]
+        "name": "매일 듣는 노래 - 황치열",
+        "code": "5_aS-y4GpeY",
+        "start": 0,
+        "tags": [ "2017", "남성 가수", "황치열", "가요", "발라드", "노래방" ],
+        "answer": [ "매일듣는노래"  ]
     },
     {
         "name": "우리 왜 헤어져야 해 - 신예영",
@@ -3452,7 +3473,7 @@
     },
     {
         "name": "KAZINO(사장님 도박은 재미로 하셔야 합니다) - 비비",
-        "code": "zeloEHR4ILM",
+        "code": "AEfr2yNhGPM",
         "start": 0,
         "tags": ["힙합", "랩", "비비", "2020"],
         "answer": ["사장님도박은재미로하셔야합니다", "kazino"]
@@ -3696,11 +3717,11 @@
         "answer": ["fucku", "뻑유", "뻐큐"]
     },
     {
-      "name": "사계(하루살이) - 엠씨더맥스(M.C The Max)",
-      "code": "XG9wn6e5S84",
-      "start": 86,
-      "tags": ["2019", "발라드", "케이팝", "엠씨더맥스"],
-      "answer": ["사계"]
+        "name": "사계(하루살이) - 엠씨더맥스(M.C The Max)",
+        "code": "XG9wn6e5S84",
+        "start": 86,
+        "tags": ["2019", "발라드", "케이팝", "엠씨더맥스"],
+        "answer": ["사계"]
     },
     {
         "name": "싫다고 말해 - (G)I-DLE",
@@ -3738,11 +3759,11 @@
         "answer": ["몽환의숲"]
     },
     {
-      "name": "사랑했나봐 - 윤도현",
-      "code": "KeMbLY7ztDw",
-      "start":  0,
-      "tags": ["2005", "밴드", "케이팝"],
-      "answer": ["사랑했나봐"]
+        "name": "사랑했나봐 - 윤도현",
+        "code": "KeMbLY7ztDw",
+        "start":  0,
+        "tags": ["2005", "밴드", "케이팝"],
+        "answer": ["사랑했나봐"]
     },
     {
         "name": "I NEED U - BTS",
@@ -3766,11 +3787,11 @@
         "answer": ["추격자"]
     },
     {
-      "name": "나랑 같이 걸을래 - 적재",
-      "code": "26YwXUcUf4I",
-      "start":  0,
-      "tags": ["2020", "남성 가수", "케이팝"],
-      "answer": ["나랑같이걸을래"]
+        "name": "나랑 같이 걸을래 - 적재",
+        "code": "26YwXUcUf4I",
+        "start":  0,
+        "tags": ["2020", "남성 가수", "케이팝"],
+        "answer": ["나랑같이걸을래"]
     },
     {
         "name": "기억을 걷는 시간 - 넬",
@@ -3827,5 +3848,75 @@
         "start": 0,
         "tags": ["힙합", "애쉬 아일랜드", "2021", "힙합", "최신곡"],
         "answer": ["신경꺼"]
-    }  
+    },  
+    {
+        "name": "멀어 - 프라이머리(Feat. Beenzino)",
+        "code": "UP0I_dhcwDg",
+        "start": 0,
+        "tags": ["힙합", "랩", "2012", "프라이머리", "빈지노"],
+        "answer": ["멀어"]
+    },
+    {
+        "name": "savage - aespa",
+        "code": "REmUidcJt5I",
+        "start": 0,
+        "tags": ["힙합", "걸그룹", "2021", "에스파", "최신곡", "트렌드", "TOP100"],
+        "answer": ["savage", "새비지"]
+    },
+    {
+        "name": "ISLAND - WINNER",
+        "code": "2lPAg3srAO0",
+        "start": 2,
+        "tags": ["남자 아이돌", "2018", "WINNER", "가요", "케이팝"],
+        "answer": [ "island", "아일랜드" ]
+    },
+    {
+        "name": "REALLY REALLY - WINNER",
+        "code": "A-Z_u56Kwj4",
+        "start": 0,
+        "tags": ["남자 아이돌", "2017", "WINNER", "가요", "케이팝"],
+        "answer": [ "릴리릴리", "reallyreally" ]
+    },
+    {
+        "name": "AH YEAH - WINNER",
+        "code": "B6QlcMCD2Ko",
+        "start": 0,
+        "tags": ["남자 아이돌", "2019", "WINNER", "가요", "케이팝"],
+        "answer": [ "ahyeah", "아예" ]
+    },
+    {
+        "name": "Irony (아이러니) - 원더걸스",
+        "code": "niqDayYfJQE",
+        "start": 0,
+        "tags": ["여자 아이돌", "2007", "원더걸스", "가요", "케이팝", "추억의그노래"],
+        "answer": [ "아이러니", "irony" ]
+    },
+    {
+        "name": "NU 예삐오 (NU ABO) - f(x)",
+        "code": "53pdhWjMlDE",
+        "start": 0,
+        "tags": ["여자 아이돌", "2010", "f(x)", "가요", "케이팝", "추억의그노래"],
+        "answer": [ "누예삐오", "nu예삐오" ]
+    },  
+    {
+        "name": "라차타 (LA chA TA) - f(x)",
+        "code": "xOKXKY_kJS0",
+        "start": 41,
+        "tags": ["여자 아이돌", "2009", "f(x)", "가요", "케이팝", "추억의그노래"],
+        "answer": [ "라차타", "lachata" ]
+    },  
+    {
+        "name": "라차타 (LA chA TA) - f(x)",
+        "code": "xOKXKY_kJS0",
+        "start": 41,
+        "tags": ["여자 아이돌", "2009", "f(x)", "가요", "케이팝", "추억의그노래"],
+        "answer": [ "라차타", "lachata" ]
+    },  
+    {
+        "name": "질풍가도 - 유정석",
+        "code": "BFguYNU4E8g",
+        "start": 41,
+        "tags": ["남성 가수", "2006", "유정석", "가요", "케이팝", "추억의그노래"],
+        "answer": [ "질풍가도" ]
+    }
 ]
