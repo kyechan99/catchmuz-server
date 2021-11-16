@@ -42,6 +42,13 @@
         "answer": [ "블랙맘바", "blackmamba" ]
     },
     {
+        "name": "예뻐 예뻐 - 레이디스코드",
+        "code": "oUZfhAoHYl4",
+        "start": 0,
+        "tags": ["여자 아이돌", "레이디스코드", "2013", "추억의그노래"],
+        "answer": ["예뻐예뻐"]
+    },
+    {
         "name": "선을그어주던가 - 1415",
         "code": "wlvcZ4StPRM",
         "start": 0,
@@ -756,6 +763,13 @@
         "answer": [ "touchmybody", "터치마이바디" ]
     },
     {
+        "name": "Twinkle - 소녀시대",
+        "code": "JmM04_OgajU",
+        "start": 16,
+        "tags": [ "2012", "추억의그노래", "소녀시대", "여자 아이돌" ],
+        "answer": [ "twinkle", "트윈클", "트윙클" ]
+    },
+    {
         "name": "I GOT A BOY - 소녀시대",
         "code": "wq7ftOZBy0E",
         "start": 31,
@@ -768,6 +782,13 @@
         "start": 15,
         "tags": [ "2012", "추억의그노래", "오렌지카라멜", "여자 아이돌" ],
         "answer": [ "립스틱", "lipstick" ]
+    },
+    {
+        "name": "빠빠빠 - 크레용팝",
+        "code": "HUeq_a1s_74",
+        "start": 0,
+        "tags": [ "2013", "추억의그노래", "크레용팝" ],
+        "answer": [ "빠빠빠" ]
     },
     {
         "name": "Push Push - 씨스타",
@@ -796,6 +817,13 @@
         "start": 0,
         "tags": [ "2013", "추억의그노래", "B1A4", "남자 아이돌" ],
         "answer": [ "이게무슨일이야" ]
+    },
+    {
+        "name": "셜록(Sherlock) - 샤이니",
+        "code": "ehqVxQ7wzbY", 
+        "start": 0,
+        "tags": [ "2012", "추억의그노래", "샤이니", "남자 아이돌" ],
+        "answer": [ "셜록", "sherlock" ]
     },
     {
         "name": "장난아냐(Rocking) - 틴탑",
@@ -1204,6 +1232,13 @@
         "answer": [ "난리나" ]
     },
     {
+        "name": "Love Shot - 엑소",
+        "code": "d7XTRW_PeWw",
+        "start": 19,
+        "tags": [ "2018", "엑소", "남자 아이돌" ],
+        "answer": [ "loveshot","럽샷" ]
+    },
+    {
         "name": "Tempo - 엑소",
         "code": "UTFJ4-fhQ74",
         "start": 19,
@@ -1461,6 +1496,13 @@
         "start": 0,
         "tags": [ "2019", "레드벨벳", "여자 아이돌", "가요" ],
         "answer": [ "psycho", "싸이코" ]
+    },
+    {
+        "name": "빨간맛 - 레드벨벳",
+        "code": "bUwHblpMX1M", 
+        "start": 0,
+        "tags": [ "2017", "레드벨벳", "여자 아이돌", "가요" ],
+        "answer": [ "빨간맛" ]
     },
     {
         "name": "러시안 룰렛 - 레드벨벳",
@@ -3652,13 +3694,6 @@
         "start": 78,
         "tags": ["2014", "댄스", "케이팝"],
         "answer": ["fucku", "뻑유", "뻐큐"]
-    },
-    {
-        "name": "사계 - 태연",
-        "code": "5haSQXYoVwg",
-        "start": 56,
-        "tags": ["2019", "발라드", "케이팝"],
-        "answer": ["사계"]
     },
     {
       "name": "사계(하루살이) - 엠씨더맥스(M.C The Max)",
