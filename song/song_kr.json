@@ -3792,5 +3792,40 @@
         "start": 73,
         "tags": ["2006", "남성 가수", "케이팝"],
         "answer": ["거리에서"]
-    }
+    },
+    {
+        "name": "한 페이지가 될 수 있게 - DAY6(데이식스)",
+        "code": "vnS_jn2uibs",
+        "start": 0,
+        "tags": ["2019", "DAY6(데이식스)", "밴드", "가요"],
+        "answer": ["한페이지가될수있게"]
+    },
+    {
+        "name": "Congratulations - DAY6(데이식스)",
+        "code": "x3sFsHrUyLQ",
+        "start": 0,
+        "tags": ["2015", "DAY6(데이식스)", "밴드", "가요"],
+        "answer": ["congratulations" ]
+    },
+    {
+        "name": "낙하 (NAKKA) - 악동뮤지션 (with IU)",
+        "code": "EtiPbWzUY9o",
+        "start": 6,
+        "tags": ["2021", "악동뮤지션", "밴드", "최신곡", "가요"],
+        "answer": ["낙하", "nakka" ]
+    },
+    {
+        "name": "strawberry moon - 아이유",
+        "code": "sqgxcCjD04s",
+        "start": 6,
+        "tags": ["2021", "아이유", "여성 가수", "최신곡", "가요"],
+        "answer": ["strawberrymoon", "스트로베리문" ]
+    },
+    {
+        "name": "신경꺼 - 애쉬 아일랜드",
+        "code": "xlj30vFOLhA",
+        "start": 0,
+        "tags": ["힙합", "애쉬 아일랜드", "2021", "힙합", "최신곡"],
+        "answer": ["신경꺼"]
+    }  
 ]
